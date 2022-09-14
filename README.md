@@ -7,7 +7,9 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 * Guilherme Lage da Costa
 * Renato Ramalho Teodoro de Oliveira Júnior
 * Eduardo Vilela de Morais Rodrigues Moreira
-* Nome completo do aluno 4
+* Mateus Guanabarino Freire de Castro
+* Miguel Magalhães Freire de Castro
+* Jhonata Ramos dos Santos
 
 ## Professores responsáveis
 
