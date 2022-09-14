@@ -5,7 +5,7 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 ## Alunos integrantes da equipe
 
 * Guilherme Lage da Costa
-* Nome completo do aluno 2
+* Renato Ramalho Teodoro de Oliveira Júnior
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 
