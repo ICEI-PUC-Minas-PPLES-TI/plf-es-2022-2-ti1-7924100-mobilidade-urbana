@@ -105,7 +105,22 @@
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  
+.Gênero: homens e mulheres. 
+
+.Faixa etária: entre 18 e 70 anos. 
+
+.Escolaridade: ensino fundamental completo. 
+
+.Requisitos tecnológicos: Ter um conhecimento básico sobre como utilizar um smartphone e ter alguma experiencia com a web. 
+
+.Faixa de Renda: R$1200 até R$6000. 
+
+.Classe social: Da classe E até a classe C. 
+
+.Localização: Residentes de Belo Horizonte. 
+
+.Hábitos de consumo: pessoas que precisam de utilizar o transporte público diariamente ou até mesmo esporadicamente.  ......
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
