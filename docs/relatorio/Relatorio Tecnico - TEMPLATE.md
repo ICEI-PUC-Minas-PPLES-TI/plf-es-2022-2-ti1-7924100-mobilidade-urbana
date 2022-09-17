@@ -1,5 +1,5 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
+`TÍTULO DO PROJETO`  S
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
