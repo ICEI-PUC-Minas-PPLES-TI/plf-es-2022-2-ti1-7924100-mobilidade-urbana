@@ -1,5 +1,5 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  CAPELA
+`TÍTULO DO PROJETO`  
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
