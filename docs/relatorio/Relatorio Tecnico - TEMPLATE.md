@@ -59,7 +59,7 @@
 >
 >A utilização do transporte público como principal forma de deslocamento é uma realidade de grande parte da população brasileira. Considerando essa perspectiva, os estudantes de faculdades e universidades configuram-se como uma parcela significativa desse espectro, e quem merecem ser analisados. Com um mundo cada vez mais interconectado e rápido, esses estudantes, que de modo geral representam um grupo mais jovem, buscam alternativas práticas e imediatas para terem um maior controle sobre suas rotinas de horários, por meio de aplicativos, sites, ou outras referências.
 >
->Partindo desse pressuposto, seria possível de fornecer a essas pessoas uma informação prática e clara sobre as linhas de ônibus que elas poderiam usar, para chegarem da maneira mais rápida e econômica ao seu curso? Essa é uma dor presente no dia a dia dos estudantes que dependem de informações precisas para se planejar, e que será analisado no projeto a seguir.
+>Partindo desse pressuposto, seria possível fornecer a essas pessoas uma informação clara e precisa sobre as linhas de ônibus que elas poderiam usar, para chegarem da maneira mais rápida e econômica ao seu local de estudo? Essa é uma dor presente no dia a dia dos estudantes que dependem dessas informações para se planejarem, e que será analisado no projeto a seguir.
 >
 ## Objetivos
 
