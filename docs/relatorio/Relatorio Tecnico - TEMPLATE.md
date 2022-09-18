@@ -4,18 +4,19 @@
 ......  COLOQUE AQUI O SEU TEXTO ......
 
 `CURSO` 
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-## Participantes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
 >
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+> Engenharia de Software - PUC Minas Praça da Liberdade
+> 
+## Participantes
+>
+> Equipe envolvida no desenvolvimento do projeto: 
+>
+> - Guilherme Lage da Costa;
+> - Renato Ramalho Teodoro de Oliveira Júnior;
+> - Eduardo Vilela de Morais Rodrigues Moreira;
+> - Mateus Guanabarino Freire de Castro;
+> - Miguel Magalhães Freire de Castro;
+> - Jhonata Ramos dos Santos.
 
 # Estrutura do Documento
 
@@ -56,8 +57,9 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
+>
+>A utilização do transporte público como principal forma de deslocamento é uma realidade de grande parte da população brasileira. Considerando essa perspectiva, os estudantes de faculdades e universidades configuram-se como uma parcela significativa desse espectro, e quem devem ser analisados. Com um mundo cada vez mais interconectado e rápido, a parcela de estudantes, que de modo geral representam um grupo mais jovem, buscam alternativas práticas e imediatas para terem um maior controle sobre suas rotinas de horários, por meio de aplicativos, sites, ou outras referências.  Partindo desse pressuposto, existiria uma fornecer às pessoas uma informação prática e clara sobre as linhas de ônibus que elas poderiam usar, para chegarem da maneira mais rápida e econômica ao seu destino? Essa é uma dor presente no dia a dia dos estudantes que dependem de informações precisas para se planejar, e que será analisado no projeto a seguir.
+>
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
 > Descreva também o contexto em que essa aplicação será usada, se
