@@ -56,28 +56,11 @@
 # Introdução
 
 ## Problema
-
 >
 >A utilização do transporte público como principal forma de deslocamento é uma realidade de grande parte da população brasileira. Considerando essa perspectiva, os estudantes de faculdades e universidades configuram-se como uma parcela significativa desse espectro, e quem devem ser analisados. Com um mundo cada vez mais interconectado e rápido, a parcela de estudantes, que de modo geral representam um grupo mais jovem, buscam alternativas práticas e imediatas para terem um maior controle sobre suas rotinas de horários, por meio de aplicativos, sites, ou outras referências.
 >
 >Partindo desse pressuposto, existiria uma fornecer a essas pessoas uma informação prática e clara sobre as linhas de ônibus que elas poderiam usar, para chegarem da maneira mais rápida e econômica ao seu destino? Essa é uma dor presente no dia a dia dos estudantes que dependem de informações precisas para se planejar, e que será analisado no projeto a seguir.
 >
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 ......  COLOQUE AQUI O SEU TEXTO ......
