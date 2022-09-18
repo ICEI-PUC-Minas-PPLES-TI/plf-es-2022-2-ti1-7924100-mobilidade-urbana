@@ -17,7 +17,7 @@
 > - Mateus Guanabarino Freire de Castro;
 > - Miguel Magalhães Freire de Castro;
 > - Jhonata Ramos dos Santos.
-
+>
 # Estrutura do Documento
 
 - [Informações do Projeto](#informações-do-projeto)
@@ -57,23 +57,22 @@
 
 ## Problema
 >
->A utilização do transporte público como principal forma de deslocamento é uma realidade de grande parte da população brasileira. Considerando essa perspectiva, os estudantes de faculdades e universidades configuram-se como uma parcela significativa desse espectro, e quem devem ser analisados. Com um mundo cada vez mais interconectado e rápido, a parcela de estudantes, que de modo geral representam um grupo mais jovem, buscam alternativas práticas e imediatas para terem um maior controle sobre suas rotinas de horários, por meio de aplicativos, sites, ou outras referências.
+>A utilização do transporte público como principal forma de deslocamento é uma realidade de grande parte da população brasileira. Considerando essa perspectiva, os estudantes de faculdades e universidades configuram-se como uma parcela significativa desse espectro, e quem merecem ser analisados. Com um mundo cada vez mais interconectado e rápido, esses estudantes, que de modo geral representam um grupo mais jovem, buscam alternativas práticas e imediatas para terem um maior controle sobre suas rotinas de horários, por meio de aplicativos, sites, ou outras referências.
 >
->Partindo desse pressuposto, existiria uma fornecer a essas pessoas uma informação prática e clara sobre as linhas de ônibus que elas poderiam usar, para chegarem da maneira mais rápida e econômica ao seu destino? Essa é uma dor presente no dia a dia dos estudantes que dependem de informações precisas para se planejar, e que será analisado no projeto a seguir.
+>Partindo desse pressuposto, existiria uma fornecer a essas pessoas uma informação prática e clara sobre as linhas de ônibus que elas poderiam usar, para chegarem da maneira mais rápida e econômica ao seu curso? Essa é uma dor presente no dia a dia dos estudantes que dependem de informações precisas para se planejar, e que será analisado no projeto a seguir.
 >
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
+### Objetivo gerail
+>
+>O objetivo geral deste projeto, é desenvolver uma plataforma web que ajude os estudantes a terem um maior controle das opções de ônibus disponíveis para chegarem  às suas faculdades e universidades.
+>
+### Objetivos específicos
+>
+> - Apresentar de maneira simples e prática as linhas de ônibus para a faculdade/universidade do usuário;
+> - Demonstrar os horários em que cada uma das linhas passa em um determinado ponto;
+> - Comparar as linhas disponíveis, avaliando qual seria a opção mais viável (em termos de tempo e dinheiro).
+>
 ## Justificativa
 
 ......  COLOQUE AQUI O SEU TEXTO ......
@@ -126,12 +125,14 @@
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
-
+Nessa seção, será apresentada uma visão um pouco mais aprofundada do projeto, através da elaboração das Personas, Histórias de Usuários, Requisitos e Restrições do projeto.
+>
+>Nesta seção, será apresentada uma visão mais detalhada e aprofundada do projeto em análise. Para isso, foram utilizadas das seguintes práticas:
+> - Descrição de Personas: busca entender, em uma visão mais pessoal, as dores das pessoas relacionadas com o tema do estudo;
+> - Histórias de usuários: indicação, na visão de usuários e administradores da plataforma, das funcionalidades/capacidades esperadas que podem lhe ajudar;  
+> - Requisitos: quais são nossas 'exigências' em termos de funcionalidades da plataforma (requisitos funcionais) e demais aspectos (requisitos não funcionais); 
+> - Restrições: definição dos limites do projeto.
+>
 ## Personas e Mapas de Empatia
 
 ......  COLOQUE AQUI O SEU TEXTO ......
