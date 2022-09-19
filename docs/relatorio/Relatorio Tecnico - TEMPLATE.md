@@ -161,7 +161,7 @@
 >
 >Com base na análise das personas apresentadas acima, foram identificadas as seguintes hsitórias de usuários:
 >
->![](imaages/../images/hist-usuarios.png)
+>![teste](imaages/../images/hist-usuarios.png)
 >
 ## Requisitos
 
