@@ -250,9 +250,9 @@ As ferramentas utilizadas no processo foram:
 > - Ferramentas de comunicação: Discord, Whatsapp;
 > - Ferramentas de diagramação: Miro, Figma.
 > 
-> - O editor de código foi escolhido porque ele tem uma otima integração com o git/github;
-> - As ferramentas de comunicação utilizadas são práticas e fáceis de se usar;
-> - Por fim, por indicação do professor foram utilizadas tais plataformas de diagramação.
+>O editor de código foi escolhido porque ele tem uma otima integração com o git/github,
+>as ferramentas de comunicação utilizadas são práticas e fáceis de se usar e
+>por fim, por indicação do professor foram utilizadas tais plataformas de diagramação.
 
 ## Controle de Versão
 
