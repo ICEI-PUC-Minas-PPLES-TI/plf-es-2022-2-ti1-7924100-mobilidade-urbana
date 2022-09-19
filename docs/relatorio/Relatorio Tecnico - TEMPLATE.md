@@ -219,8 +219,6 @@ Utilizamos também um fluxo de revisão, no qual cada integrante do grupo reviso
 
 
 ## Divisão de Papéis
->
->Para realização do projeto, a equipe foi subdividida conforme tabela a seguir.
 
 | Membro   | Função   |
 | -------- | -------- |
@@ -240,33 +238,21 @@ As ferramentas utilizadas no processo foram:
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
-
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
+|Processo de Design Thinkgin  | Miro | shorturl.at/hOQ79  | 
+|Repositório de código | GitHub | shorturl.at/msU45 |  
+|Protótipo Interativo | Figma | pendente | 
+|Comunicação do grupo | Discord | ----- |
+|Atualização do relatório | Visual Studio Code | ----- |
+ 
 > As ferramentas empregadas no projeto são:
 > 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
+> - Editor de código: Visual Studio Code;
+> - Ferramentas de comunicação: Discord, Whatsapp;
+> - Ferramentas de diagramação: Miro, Figma.
 > 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
+> - O editor de código foi escolhido porque ele tem uma otima integração com o git/github;
+> - As ferramentas de comunicação utilizadas são práticas e fáceis de se usar;
+> - Por fim, por indicação do professor foram utilizadas tais plataformas de diagramação.
 
 ## Controle de Versão
 
