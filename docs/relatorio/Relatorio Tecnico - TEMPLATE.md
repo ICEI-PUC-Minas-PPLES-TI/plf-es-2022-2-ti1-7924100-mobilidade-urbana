@@ -159,51 +159,40 @@
 >
 ## Histórias de Usuários
 >
->Com base na análise das personas apresentadas acima, foram identificadas as seguintes hsitórias de usuários:
+>Com base na análise das personas apresentadas acima, foram identificadas as seguintes histórias de usuários:
 >
 >![](imaages/../images/hist-usuarios.png)
 >
 ## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
+>
+>Com base nas pesquisas realizadas pela equipe, foram mapeados os principais requisitos (funcionais e não funcionais) detalham o escopo do projeto.
+>
 ### Requisitos Funcionais
-
+>
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
-
+|RF-001| Permitir que o usuário salve os seus destinos | ALTA | 
+|RF-002| Mostrar a posição do ônibus em tempo real   | ALTA |
+|RF-003| Apresentar o horário de chegada esperado do ônibus | ALTA |
+|RF-004| Apresentar os pontos nos quais o ônibus irá passar | MÉDIA |
+|RF-005| Ter uma página com todas as informações de uma determinada linha específica | MÉDIA |
+|RF-006| Ter uma página para o usuário ver os seus destinos salvos | MÉDIA |
+|RF-007| Ver o custo para realizar o trajeto (com base na tarifa do ônibus) | MÉDIA |
+|RF-008| Indicar qual seria a melhor linha, considerando o tempo médio e custo previsto | BAIXA |
+|RF-009| Alertar ao usuário caso haja mudança no horário da linha | BAIXA |
+|RF-010| Alertar o usuário quando o seu ônibus estiver se aproximando  | BAIXA |
+>
 ### Requisitos não Funcionais
-
+>
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| Deve possuir acesso às informações da API do BHtrans | ALTA | 
+|RNF-002| A interface deve ser simples e objetiva | ALTA | 
+|RNF-003| O sistema deve ser responsivo em um dispositivos móvel | ALTA | 
+|RNF-004| O sistema precisa ser executado tanto em desktops quanto dispositivos móveis | MÉDIA | 
+|RNF-005| O tempo para apresentação da linha do ônibus não pode ser superior a 5 segundos | MÉDIA | 
+|RNF-006| A interface deve possuir uma opção de acessibilidade  | BAIXA | 
 > 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
