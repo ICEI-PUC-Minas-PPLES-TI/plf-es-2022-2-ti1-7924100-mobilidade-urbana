@@ -151,11 +151,11 @@
 >
 >**Pedro Guerra:**
 >
-> ![Pedro Guerra]
+> ![Pedro Guerra](imaages/../images/Persona-4.png)
 >
 >**José Carlos:**
 >
-> ![José Carlos]
+> ![José Carlos](imaages/../images/Persona-5.png)
 >
 ## Histórias de Usuários
 
