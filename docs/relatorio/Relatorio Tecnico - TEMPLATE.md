@@ -75,19 +75,8 @@
 >
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+>Com base nos dados disponibilizados pela IPEA (Instituto de pesquisa econômica aplicada), 65% da população brasileira utiliza o transporte público como principal forma de deslocamento nas capitais, sendo que esse número cai para 36% em regiões não capitais. Ademais, em pesquisas realizadas pelo instituto, mais de 90% dos passageiros consideram andam em ônibus lotados e esperam mais de 30 minutos nos pontos de ônibus, uma vez que os horários muitas vezes não são respeitados.
+Em pesquisa realizada pela equipe do projeto, verificamos que 87% dos usuários são jovens de 18 a 30 anos, sendo que 65% são universitários que tem o ônibus como principal meio de transporte. Devido a tais fatores, visando no auxílio dos universitarios que utilizam o ônibus, o projeto busca providenciar melhores rotas, linhas de ônibus e controle dos horários para o universitário que deseja ter uma visão de acesso mais intuitivo a sua instituição de ensino.
 
 ## Público-Alvo
 >
