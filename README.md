@@ -9,7 +9,6 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 * Eduardo Vilela de Morais Rodrigues Moreira
 * Mateus Guanabarino Freire de Castro
 * Miguel Magalhães Freire de Castro
-* Jhonata Ramos dos Santos
 
 ## Professores responsáveis
 
