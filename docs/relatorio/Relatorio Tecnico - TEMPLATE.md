@@ -138,12 +138,16 @@
 >
 >**Lowrany Ferreira:**
 > ![Lowrany Ferreira](imaages/../images/Persona-1.png)
+>
 >**Beane do Carmo:**
 > ![Beane do Carmo](imaages/../images/Persona-2.png)
+>
 >**Tamara Andrade:**
 > ![Tamara Andrade](imaages/../images/Persona-3.png)
+>
 >**Pedro Guerra:**
 > ![Pedro Guerra](imaages/../images/Persona-4.png)
+>
 >**José Carlos:**
 > ![José Carlos](imaages/../images/Persona-5.png)
 >
