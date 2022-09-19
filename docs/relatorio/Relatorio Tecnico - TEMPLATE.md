@@ -16,7 +16,6 @@
 > - Eduardo Vilela de Morais Rodrigues Moreira;
 > - Mateus Guanabarino Freire de Castro;
 > - Miguel Magalhães Freire de Castro;
-> - Jonata Ramos dos Santos.
 >
 # Estrutura do Documento
 
@@ -221,18 +220,21 @@ Utilizamos também um fluxo de revisão, no qual cada integrante do grupo reviso
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+| Membro   | Função   |
+| -------- | -------- |
+| Guilherme Lage | Desenvolvedor e Scrum Master |
+| Renato Ramalho | Desenvolvedor |
+| Eduardo Vilela | Desenvolvedor |
+| Miguel Magalhães | Desenvolvedor |
+| Mateus Guanabarino | Desenvolvedor |
+| Felipe Augusto | Project owner |
+| Roberto Felipe | Project owner |
+| Rommel Vieira  | Project owner |
 
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
+As ferramentas utilizadas no processo foram:
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
