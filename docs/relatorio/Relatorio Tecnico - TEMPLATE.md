@@ -219,6 +219,8 @@ Utilizamos também um fluxo de revisão, no qual cada integrante do grupo reviso
 
 
 ## Divisão de Papéis
+>
+>Para realização do projeto, a equipe foi subdividida conforme tabela a seguir.
 
 | Membro   | Função   |
 | -------- | -------- |
