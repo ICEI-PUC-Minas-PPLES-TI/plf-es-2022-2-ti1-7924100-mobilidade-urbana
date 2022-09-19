@@ -63,7 +63,7 @@
 >
 ## Objetivos
 
-### Objetivo gerail
+### Objetivo geral
 >
 >O objetivo geral deste projeto, é desenvolver uma plataforma web que ajude os estudantes a terem um maior controle das opções de ônibus disponíveis para chegarem  às suas faculdades e universidades.
 >
@@ -136,12 +136,17 @@
 >Para um maior conhecimento acerca das pessoas que buscamos atingir e ajudar com esse projeto, foram realizadas entrevistas com 5 pessoas de diferentes áreas e grupos. Esses grupos variam desde estudantes, pessoas que estão estudando e estagiando simultaneamente, e pessoas que já se formaram, e estão inseridas no mercado de trabalho. 
 >Ademais, cabe mencionar que as entrevistas contemplaram pessoas que não necessariamente utilizam o ônibus como forma principal de deslocamento em seu dia a dia, mas que, em eventuais situações, fazem uso deste meio de transporte, como é o caso do Pedro e José Carlos. Considerando essas informações, a seguir são apresentadas as Personas mapeadas.
 >
+>### Lowrany Ferreira:
 > ![Lowrany Ferreira](imaages/../images/Persona-1.png)
+### Beane do Carmo:
 > ![Beane do Carmo](imaages/../images/Persona-2.png)
+### Tamara Andrade:
 > ![Tamara Andrade](imaages/../images/Persona-3.png)
+### Pedro Guerra:
 > ![Pedro Guerra](imaages/../images/Persona-4.png)
+### José Carlos:
 > ![José Carlos](imaages/../images/Persona-5.png)
-
+>
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
 > você deve ser enumerar e descrever precisamente e de forma
