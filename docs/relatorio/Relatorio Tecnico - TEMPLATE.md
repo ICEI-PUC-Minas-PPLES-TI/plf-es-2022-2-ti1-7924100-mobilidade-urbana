@@ -90,39 +90,9 @@
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
-
-......  
-.Gênero: homens e mulheres. 
-
-.Faixa etária: entre 18 e 70 anos. 
-
-.Escolaridade: ensino fundamental completo. 
-
-.Requisitos tecnológicos: Ter um conhecimento básico sobre como utilizar um smartphone e ter alguma experiencia com a web. 
-
-.Faixa de Renda: R$1200 até R$6000. 
-
-.Classe social: Da classe E até a classe C. 
-
-.Localização: Residentes de Belo Horizonte. 
-
-.Hábitos de consumo: pessoas que precisam de utilizar o transporte público diariamente ou até mesmo esporadicamente.  ......
-
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
 >
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
+>Com base nos dados apresentados no capítulo de Justificativa, o publico alvo do presente estudo serão os estudantes de faculdades e universidades (homens e mulheres), com faixa etária de 18 a 30 anos, que residem em Belo Horizonte, e que utilizam o ônibus como o principal meio de deslocamento de sua casa ao local de estudo.
 > 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
- 
 # Especificações do Projeto
 >
 >Nesta seção, será apresentada uma visão mais detalhada e aprofundada do projeto em análise. Para isso, foram utilizadas das seguintes práticas:
@@ -132,7 +102,7 @@
 > - Restrições: definição dos limites do projeto.
 >
 ## Personas e Mapas de Empatia
->
+
 >Para um maior conhecimento acerca das pessoas que buscamos atingir e ajudar com esse projeto, foram realizadas entrevistas com 5 pessoas de diferentes áreas e grupos. Esses grupos variam desde estudantes, pessoas que estão estudando e estagiando simultaneamente, e pessoas que já se formaram, e estão inseridas no mercado de trabalho.
 >
 >Ademais, cabe mencionar que as entrevistas contemplaram pessoas que não necessariamente utilizam o ônibus como forma principal de deslocamento em seu dia a dia, mas que, em eventuais situações, fazem uso deste meio de transporte, como é o caso do Pedro e José Carlos. Considerando essas informações, a seguir são apresentadas as Personas mapeadas.
@@ -158,13 +128,13 @@
 > ![José Carlos](imaages/../images/Persona-5.png)
 >
 ## Histórias de Usuários
->
+
 >Com base na análise das personas apresentadas acima, foram identificadas as seguintes histórias de usuários:
 >
 >![](imaages/../images/hist-usuarios.png)
 >
 ## Requisitos
->
+
 >Com base nas pesquisas realizadas pela equipe, foram mapeados os principais requisitos (funcionais e não funcionais) detalham o escopo do projeto.
 >
 ### Requisitos Funcionais
@@ -194,23 +164,16 @@
 |RNF-006| A interface deve possuir uma opção de acessibilidade  | BAIXA | 
 > 
 ## Restrições
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
+>
+>O projeto em análise será restrito pelos itens apresentados conforme tabela a seguir.
+>
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
-
+|02| Não pode ser desenvolvido um módulo de back-end |
+|03| Não podem ser feitos aportei financeiros no projeto |
+|04| Todos os artefatos devem ser testados por ao menos 2 componentes da equipe|
+>
 # Projeto de Interface
 
 ......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
