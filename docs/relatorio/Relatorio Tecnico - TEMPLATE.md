@@ -16,7 +16,7 @@
 > - Eduardo Vilela de Morais Rodrigues Moreira;
 > - Mateus Guanabarino Freire de Castro;
 > - Miguel Magalhães Freire de Castro;
-> - Jhonata Ramos dos Santos.
+> - Jonata Ramos dos Santos.
 >
 # Estrutura do Documento
 
@@ -57,7 +57,7 @@
 
 ## Problema
 >
->A utilização do transporte público como principal forma de deslocamento é uma realidade de grande parte da população brasileira. Considerando essa perspectiva, os estudantes de faculdades e universidades configuram-se como uma parcela significativa desse espectro, e quem merecem ser analisados. Com um mundo cada vez mais interconectado e rápido, esses estudantes, que de modo geral representam um grupo mais jovem, buscam alternativas práticas e imediatas para terem um maior controle sobre suas rotinas de horários, por meio de aplicativos, sites, ou outras referências.
+>A utilização do transporte público como principal forma de deslocamento é uma realidade de grande parte da população brasileira. Considerando essa perspectiva, os estudantes de faculdades e universidades configuram-se como uma parcela significativa desse espectro, e que merecem ser analisados. Com um mundo cada vez mais interconectado e rápido, esses estudantes, que de modo geral representam um grupo mais jovem, buscam alternativas práticas e imediatas para terem um maior controle sobre suas rotinas de horários, por meio de aplicativos, sites, ou outras referências.
 >
 >Partindo desse pressuposto, seria possível fornecer a essas pessoas uma informação clara e precisa sobre as linhas de ônibus que elas poderiam usar, para chegarem da maneira mais rápida e econômica ao seu local de estudo? Essa é uma dor presente no dia a dia dos estudantes que dependem dessas informações para se planejarem, e que será analisado no projeto a seguir.
 >
@@ -70,8 +70,8 @@
 ### Objetivos específicos
 >
 > - Apresentar de maneira simples e prática as linhas de ônibus para a faculdade/universidade do usuário;
-> - Demonstrar os horários em que cada uma das linhas passa em um determinado ponto;
-> - Comparar as linhas disponíveis, avaliando qual seria a opção mais viável (em termos de tempo e dinheiro).
+> - Demonstrar os horários em que cada uma das linhas passam em um determinado ponto;
+> - Comparar as linhas disponíveis, avaliando qual seria a opção mais viável.
 >
 ## Justificativa
 
@@ -171,8 +171,7 @@
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de back-end |
-|03| Não podem ser feitos aportei financeiros no projeto |
-|04| Todos os artefatos devem ser testados por ao menos 2 componentes da equipe|
+|03| Não podem ser feitos aportes financeiros no projeto |
 >
 # Projeto de Interface
 
