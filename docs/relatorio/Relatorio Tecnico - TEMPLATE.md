@@ -239,7 +239,7 @@
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro | shorturl.at/hOQ79  | 
 |Repositório de código | GitHub | shorturl.at/msU45 |  
-|Protótipo Interativo | Figma | pendente | 
+|Protótipo Interativo | Figma | shorturl.at/HIQWY | 
 |Comunicação do grupo | Discord | ----- |
 |Atualização do relatório | Visual Studio Code | ----- |
 >
