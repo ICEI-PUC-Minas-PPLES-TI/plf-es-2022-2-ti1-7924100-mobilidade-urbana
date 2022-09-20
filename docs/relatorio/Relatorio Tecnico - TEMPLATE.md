@@ -74,9 +74,10 @@
 >
 ## Justificativa
 
->Com base nos dados disponibilizados pela IPEA (Instituto de pesquisa econômica aplicada), 65% da população brasileira utiliza o transporte público como principal forma de deslocamento nas capitais, sendo que esse número cai para 36% em regiões não capitais. Ademais, em pesquisas realizadas pelo instituto, mais de 90% dos passageiros consideram andam em ônibus lotados e esperam mais de 30 minutos nos pontos de ônibus, uma vez que os horários muitas vezes não são respeitados.
-Em pesquisa realizada pela equipe do projeto, verificamos que 87% dos usuários são jovens de 18 a 30 anos, sendo que 65% são universitários que tem o ônibus como principal meio de transporte. Devido a tais fatores, visando no auxílio dos universitarios que utilizam o ônibus, o projeto busca providenciar melhores rotas, linhas de ônibus e controle dos horários para o universitário que deseja ter uma visão de acesso mais intuitivo a sua instituição de ensino.
-
+>Com base nos dados disponibilizados pela IPEA (Instituto de pesquisa econômica aplicada), 65% da população brasileira utiliza o transporte público como principal forma de deslocamento nas capitais, sendo que esse número cai para 36% em regiões não capitais. Em pesquisas realizadas pelo instituto, verificou-se que mais de 90% dos passageiros consideram que andam em ônibus lotados e esperam mais de 30 minutos nos pontos de ônibus, uma vez que os horários muitas vezes não são respeitados.
+>
+>Em pesquisa realizada pela própria equipe do projeto, avaliamos um grupo composto em 87% por jovens de 18 a 30 anos, sendo que 65% são universitários que tem o ônibus como principal meio de transporte. Visando auxiliar os universitarios que utilizam o ônibus diariamente, o projeto em questão busca fornecer melhores rotas, informações acerca das linhas de ônibus e controle dos horários, para os universitários que buscam uma melhor praticidade no momento de deslocamento de sua residência ao local de estudo.
+>
 ## Público-Alvo
 >
 >Com base nos dados apresentados no capítulo de Justificativa, o publico alvo do presente estudo serão os estudantes de faculdades e universidades (homens e mulheres), com faixa etária de 18 a 30 anos, que residem em Belo Horizonte, e que utilizam o ônibus como o principal meio de deslocamento de sua casa ao local de estudo.
@@ -210,16 +211,13 @@ Em pesquisa realizada pela equipe do projeto, verificamos que 87% dos usuários 
 
 
 # Metodologia
-
-A equipe utilizou o Design Thinking em todo o processo de entendimento do problema. 
-Por meio dele foi possível definir o objetivo, os mapas de personas e as histórias de usuários. 
-Além disso, foram utilizadas diversas práticas do scrum, como reuniões diárias, divisão do grupo por funções, 
-ficando a cargo de cada integrante a seleção das tarefas que ele irá realizar. 
-Utilizamos também um fluxo de revisão, no qual cada integrante do grupo revisou o que foi feito pelos demais componentes.
-
-
+>
+>A equipe utilizou o Design Thinking em todo o processo de entendimento do problema. Por meio dele, foi possível definir o objetivo, os mapas de personas e as histórias de usuários. Além disso, foram utilizadas diversas práticas do scrum, como reuniões diárias, divisão do grupo por funções, ficando a cargo de cada integrante a seleção das tarefas que ele iria realizar. Utilizamos também um fluxo de revisão, no qual cada integrante do grupo revisou o que foi feito pelos demais componentes.
+>
+>De modo a fornecer uma visão mais detalhada dos processos realizados pela equipe, apresenta-se a seguir os capítulos de 'divisão de papéis', 'ferramentas' e 'controle de versão'.
+>
 ## Divisão de Papéis
-
+>
 | Membro   | Função   |
 | -------- | -------- |
 | Guilherme Lage | Desenvolvedor e Scrum Master |
@@ -230,12 +228,11 @@ Utilizamos também um fluxo de revisão, no qual cada integrante do grupo reviso
 | Felipe Augusto | Project owner |
 | Roberto Felipe | Project owner |
 | Rommel Vieira  | Project owner |
-
-
+>
 ## Ferramentas
-
-As ferramentas utilizadas no processo foram:
-
+>
+>As ferramentas utilizadas no processo foram:
+>
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro | shorturl.at/hOQ79  | 
@@ -243,7 +240,7 @@ As ferramentas utilizadas no processo foram:
 |Protótipo Interativo | Figma | pendente | 
 |Comunicação do grupo | Discord | ----- |
 |Atualização do relatório | Visual Studio Code | ----- |
- 
+>
 > As ferramentas empregadas no projeto são:
 > 
 > - Editor de código: Visual Studio Code;
@@ -253,7 +250,7 @@ As ferramentas utilizadas no processo foram:
 >O editor de código foi escolhido porque ele tem uma otima integração com o git/github,
 >as ferramentas de comunicação utilizadas são práticas e fáceis de se usar e
 >por fim, por indicação do professor foram utilizadas tais plataformas de diagramação.
-
+>
 ## Controle de Versão
 
 ......  COLOQUE AQUI O SEU TEXTO ......
