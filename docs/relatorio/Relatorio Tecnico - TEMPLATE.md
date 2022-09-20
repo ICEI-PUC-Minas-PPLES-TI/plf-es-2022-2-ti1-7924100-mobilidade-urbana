@@ -237,9 +237,9 @@
 >
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinking | Miro | [Desing Thinking](shorturl.at/hOQ79)  | 
+|Processo de Design Thinking | Miro | [Desing Thinking]( shorturl.at/hOQ79 )  | 
 |Repositório de código | GitHub | [Repositorio Github](shorturl.at/msU45) |  
-|Protótipo Interativo | Figma | [Protótipo interativo](shorturl.at/HIQWY) | 
+|Protótipo Interativo | Figma | [Protótipo interativo](https://www.figma.com/file/cZuvPXMTUubx1HkE5WLvpg/Untitled?node-id=0%3A1) | 
 |Comunicação do grupo | Discord | ----- |
 |Atualização do relatório | Visual Studio Code | ----- |
 >
