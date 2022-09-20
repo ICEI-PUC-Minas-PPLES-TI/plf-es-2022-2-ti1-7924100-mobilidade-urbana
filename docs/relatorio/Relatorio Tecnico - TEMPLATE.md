@@ -218,6 +218,8 @@
 >
 ## Divisão de Papéis
 >
+>A tabela a seguir demonstra a equipe integrante do projeto e suas respectivas funções.
+>
 | Membro   | Função   |
 | -------- | -------- |
 | Guilherme Lage | Desenvolvedor e Scrum Master |
