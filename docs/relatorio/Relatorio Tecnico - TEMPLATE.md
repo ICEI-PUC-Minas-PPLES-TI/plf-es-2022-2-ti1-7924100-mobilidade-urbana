@@ -16,6 +16,7 @@
 > - Eduardo Vilela de Morais Rodrigues Moreira;
 > - Mateus Guanabarino Freire de Castro;
 > - Miguel Magalhães Freire de Castro;
+> - Arthur Capanema Bretas.
 >
 # Estrutura do Documento
 
@@ -227,6 +228,7 @@
 | Eduardo Vilela | Desenvolvedor |
 | Miguel Magalhães | Desenvolvedor |
 | Mateus Guanabarino | Desenvolvedor |
+| Arthur Capanema | Desenvolvedor |
 | Felipe Augusto | Project owner |
 | Roberto Felipe | Project owner |
 | Rommel Vieira  | Project owner |
