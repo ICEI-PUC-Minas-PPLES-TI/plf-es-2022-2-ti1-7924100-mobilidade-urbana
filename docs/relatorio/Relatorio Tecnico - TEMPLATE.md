@@ -238,7 +238,7 @@
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
 |Processo de Design Thinking | Miro | [Desing Thinking](https://miro.com/app/board/uXjVPXxT7Fw=/) | 
-|Repositório de código | GitHub | [Repositorio Github](shorturl.at/msU45) |  
+|Repositório de código | GitHub | [Repositorio Github](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti1-7924100-mobilidade-urbana) |  
 |Protótipo Interativo | Figma | [Protótipo interativo](https://www.figma.com/file/cZuvPXMTUubx1HkE5WLvpg/Untitled?node-id=0%3A1) | 
 |Comunicação do grupo | Discord | ----- |
 |Atualização do relatório | Visual Studio Code | ----- |
