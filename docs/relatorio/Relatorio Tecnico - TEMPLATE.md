@@ -218,7 +218,7 @@
 | Roberto Felipe | Project owner |
 | Rommel Vieira  | Project owner |
 >
->Conforme supramencionado, para realizar a divisão das atividades entre a equipe, adotamos a metodologia Kanban, em que cada um dos componentes escolhe as atividades que deseja fazer. A figura a seguir ilustra a divisão de tarefas do projeto.
+>Conforme supramencionado, para realizar a divisão das atividades entre a equipe, adotamos a metodologia Kanban, em que cada um dos componentes escolhe as atividades que deseja fazer. A figura a seguir ilustra a divisão de tarefas do projeto, que pode ser consultado por meio deste [link](https://github.com/orgs/ICEI-PUC-Minas-PPLES-TI/projects/76/views/1).
 >
 >![](images/kanban.png)
 >
