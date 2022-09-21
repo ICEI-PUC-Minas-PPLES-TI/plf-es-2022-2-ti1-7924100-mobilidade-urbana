@@ -68,7 +68,7 @@
 
 ### Objetivo geral
 >
->O objetivo geral deste projeto, é desenvolver uma plataforma web que ajude o usuário a ter um maior controle das opções de ônibus disponíveis para chegarem  às suas localizações desejadas de forma dinâmica e objetiva.
+>O objetivo geral deste projeto, é desenvolver uma plataforma web que ajude os usuários a terem um maior controle das opções de ônibus disponíveis para chegarem  às suas localizações desejadas de forma dinâmica e objetiva.
 >
 ### Objetivos específicos
 >
