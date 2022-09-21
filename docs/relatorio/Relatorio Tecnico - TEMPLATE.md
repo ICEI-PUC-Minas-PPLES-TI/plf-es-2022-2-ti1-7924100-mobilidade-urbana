@@ -219,6 +219,14 @@
 >
 >Conforme supramencionado, para realizar a divisão das atividades entre a equipe, adotamos a metodologia Kanban, em que cada um dos componentes escolhe as atividades que deseja fazer. A figura a seguir ilustra a divisão de tarefas do projeto, que pode ser consultado por meio deste [link](https://github.com/orgs/ICEI-PUC-Minas-PPLES-TI/projects/76/views/1).
 >
+>Para fins de acompanhamento, definimos as atividades foram agrupadas nas seguintes categorias: (i) blocked; (ii) backlog; (iii) in process; (iv) in review; e (v) done, cada uma com suas características, sendo elas:
+> 🚨 Blocked: atividades que dependem de outras e que não podem ser feitas no momento;
+> 📋 Backlog: são as atividades que serão desenvolvidas ao longo da sprint;
+> 🏗 In progress: atividades em andamento pela equipe;
+> 👀 In review: categoria composta pelas atividades finalizadas, mas que estão no processo de revisão;
+> ✅ Done: atividades concluídas e revisadas, prontas para entrega;
+> 🗑 Canceled: atividades canceladas (categoria criada para fins de controle geral).
+>
 >![](images/kanban.png)
 >
 ## Ferramentas
