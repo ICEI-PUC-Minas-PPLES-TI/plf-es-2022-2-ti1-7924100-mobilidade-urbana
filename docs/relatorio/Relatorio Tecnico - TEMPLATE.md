@@ -143,8 +143,8 @@
 |RF-006| Ter uma página para o usuário ver os seus destinos salvos | MÉDIA |
 |RF-007| Ver o custo para realizar o trajeto (com base na tarifa do ônibus) | MÉDIA |
 |RF-008| Indicar qual seria a melhor linha, considerando o tempo médio e custo previsto | BAIXA |
-|RF-009| Alertar ao usuário caso haja mudança no horário da linha | BAIXA |
-|RF-010| Alertar o usuário quando o seu ônibus estiver se aproximando  | BAIXA |
+|RF-009| Conceder informações sobre a ocupação dos ônibus | BAIXA |
+|RF-010| Alertar o usuário quando o seu ônibus estiver atrasado  | BAIXA |
 >
 ### Requisitos não Funcionais
 >
