@@ -180,7 +180,13 @@
 >
 >A seguir é detalhado os wireframes elaborados para o projeto.
 >
->![](images/wireframe.png)
+>**Página inicial, detalhamento e sobre:** 
+>
+>![](images/wireframe1-3.png)
+>
+>**Página de login, criação de usuário e usuário:** 
+>
+>![](images/wireframe4-6.png)
 >
 >Para uma melhor visualização, o protótipo interativo da página pode ser acessado pelo seguinte [link](https://www.figma.com/proto/cZuvPXMTUubx1HkE5WLvpg/Buzz%C3%A3o---Wireframes?node-id=17%3A63&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=17%3A63).
 >
