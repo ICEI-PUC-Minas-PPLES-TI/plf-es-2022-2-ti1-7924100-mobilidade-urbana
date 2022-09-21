@@ -220,62 +220,20 @@
 >
 ## Ferramentas
 >
->As ferramentas utilizadas no processo foram:
+>As ferramentas utilizadas no ao longo do processo foram:
 >
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
 |Processo de Design Thinking | Miro | [Desing Thinking](https://miro.com/app/board/uXjVPXxT7Fw=/) | 
-|Repositório de código | GitHub | [Repositorio Github](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti1-7924100-mobilidade-urbana) |  
-|Protótipo Interativo | Figma | [Wireframe](https://www.figma.com/proto/cZuvPXMTUubx1HkE5WLvpg/Mobilidade-Urbana---Wireframes?node-id=17%3A1485&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=17%3A63) | 
-|Protótipo Interativo | Figma | [Userflow](https://www.figma.com/file/fU3Vj6kHDgNxbCayeD29Dz/Mobilidade-Urbana---User-Flow?node-id=0%3A1) | 
-|Comunicação do grupo | Discord |
-|Atualização do relatório | Visual Studio Code |
+|Repositório online | GitHub | [Repositorio Github](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti1-7924100-mobilidade-urbana) |  
+|Controle de versões | Git |[Git](https://git-scm.com/) |
+|Protótipo Interativo - Wireframe | Figma | [Wireframe](https://www.figma.com/proto/cZuvPXMTUubx1HkE5WLvpg/Mobilidade-Urbana---Wireframes?node-id=17%3A1485&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=17%3A63) | 
+|Protótipo Interativo - Userflow | Figma | [Userflow](https://www.figma.com/file/fU3Vj6kHDgNxbCayeD29Dz/Mobilidade-Urbana---User-Flow?node-id=0%3A1) | 
+|Comunicação | Discord e Whatsapp |
+|Editor de código | Visual Studio Code |
+> 
+>As ferramentas listadas foram utilizadas por conta de sua praticidade na utilização e reconhecimento no mercado.
 >
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código: Visual Studio Code;
-> - Ferramentas de comunicação: Discord, Whatsapp;
-> - Ferramentas de diagramação: Miro, Figma.
-> 
->O editor de código foi escolhido porque ele tem uma otima integração com o git/github,
->as ferramentas de comunicação utilizadas são práticas e fáceis de se usar e
->por fim, por indicação do professor foram utilizadas tais plataformas de diagramação.
->
-## Controle de Versão
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
-
 # **############## SPRINT 1 ACABA AQUI #############**
 
 
