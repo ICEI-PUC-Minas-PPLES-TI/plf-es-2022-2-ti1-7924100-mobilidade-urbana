@@ -68,11 +68,11 @@
 
 ### Objetivo geral
 >
->O objetivo geral deste projeto, é desenvolver uma plataforma web que ajude os estudantes a terem um maior controle das opções de ônibus disponíveis para chegarem  às suas faculdades e universidades de forma dinâmica e objetiva.
+>O objetivo geral deste projeto, é desenvolver uma plataforma web que ajude o usuário a ter um maior controle das opções de ônibus disponíveis para chegarem  às suas localizações desejadas de forma dinâmica e objetiva.
 >
 ### Objetivos específicos
 >
-> - Apresentar de maneira simples e prática as linhas de ônibus para a faculdade/universidade do usuário;
+> - Apresentar de maneira simples e prática as linhas de ônibus para o destino do usuário;
 > - Demonstrar os horários em que cada uma das linhas passam em um determinado ponto;
 > - Comparar as linhas disponíveis, avaliando qual seria a opção mais viável.
 >
@@ -80,11 +80,12 @@
 >
 >Segundo o IPEA (Instituto de pesquisa econômica aplicada), 65% da população brasileira utiliza o transporte público como principal forma de deslocamento nas capitais. Em pesquisas realizadas pelo instituto, verificou-se que mais de 90% dos passageiros consideram que andam em ônibus lotados e esperam mais de 30 minutos nos pontos de ônibus, uma vez que os horários muitas vezes não são respeitados.
 >
->Em pesquisa realizada pela própria equipe do projeto, avaliamos um grupo composto em 87% por jovens de 18 a 30 anos, sendo que 65% são universitários e utilizam o ônibus como principal meio de transporte. Visando auxiliar os universitarios que andam de ônibus diariamente, o projeto em questão busca fornecer melhores rotas, informações acerca das linhas de ônibus e controle dos horários, para os universitários que buscam maior praticidade no momento de deslocamento de sua residência ao local de estudo.
+>Em uma pesquisa realizada pela própria equipe do projeto, avaliamos um grupo composto em 88,6% por jovens de 18 a 30 anos, sendo que 68% são pessoas que utilizam o ônibus como principal meio de transporte. Visando auxiliar os usuários que andam de ônibus diariamente, o projeto em questão busca fornecer melhores rotas, informações acerca das linhas de ônibus e controle dos horários, para os usuários que buscam maior praticidade no momento de deslocamento de sua residência ao local desejado.
+
 >
 ## Público-Alvo
 >
->Com base nos dados apresentados no capítulo de Justificativa, o publico alvo do presente estudo serão os estudantes de faculdades e universidades (homens e mulheres), com faixa etária de 18 a 30 anos, que residem em Belo Horizonte, e que utilizam o ônibus como o principal meio de deslocamento de sua casa ao local de estudo.
+>Com base nos dados apresentados no capítulo de Justificativa, o publico alvo do presente estudo serão homens e mulheres, com faixa etária de 18 a 30 anos, que residem em Belo Horizonte, e que utilizam o ônibus como o principal meio de transporte. É necessário que as pessoas tenham um mínimo de contato com aplicativos e sites.
 > 
 # Especificações do Projeto
 >
