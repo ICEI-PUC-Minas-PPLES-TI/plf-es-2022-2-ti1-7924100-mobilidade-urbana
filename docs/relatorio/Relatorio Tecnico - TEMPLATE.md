@@ -172,7 +172,7 @@
 >
 >A seguir é detalhado o user flow elaborado para o projeto, considerando as pressimas acima informadas.
 >
->[](images/userflow.png)
+>![](images/userflow.png)
 >
 ## Wireframes
 
