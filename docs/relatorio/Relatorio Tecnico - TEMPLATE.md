@@ -200,7 +200,7 @@
 >
 >A equipe utilizou o Design Thinking em todo o processo de entendimento do problema. Por meio dele, foi possível definir o objetivo, os mapas de personas e as histórias de usuários. Além disso, foram utilizadas diversas práticas do scrum, como reuniões diárias, divisão do grupo por funções, ficando a cargo de cada integrante a seleção das tarefas que ele iria realizar. Utilizamos também um fluxo de revisão, no qual cada integrante do grupo revisou o que foi feito pelos demais componentes.
 >
->De modo a fornecer uma visão mais detalhada dos processos realizados pela equipe, apresenta-se a seguir os capítulos de 'divisão de papéis', 'ferramentas' e 'controle de versão'.
+>De modo a fornecer uma visão mais detalhada dos processos realizados pela equipe, apresenta-se a seguir os capítulos de 'divisão de papéis' e 'ferramentas'.
 >
 ## Divisão de Papéis
 >
@@ -218,6 +218,10 @@
 | Roberto Felipe | Project owner |
 | Rommel Vieira  | Project owner |
 >
+>Conforme supramencionado, para realizar a divisão das atividades entre a equipe, adotamos a metodologia Kanban, em que cada um dos componentes escolhe as atividades que deseja fazer. A figura a seguir ilustra a divisão de tarefas do projeto.
+>
+>![](images/kanban.png)
+>
 ## Ferramentas
 >
 >As ferramentas utilizadas no ao longo do processo foram:
@@ -227,6 +231,7 @@
 |Processo de Design Thinking | Miro | [Desing Thinking](https://miro.com/app/board/uXjVPXxT7Fw=/) | 
 |Repositório online | GitHub | [Repositorio Github](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti1-7924100-mobilidade-urbana) |  
 |Controle de versões | Git |[Git](https://git-scm.com/) |
+|Acompanhamento das atividades - Kanban| GitHub Projects | [Kanban] (https://github.com/orgs/ICEI-PUC-Minas-PPLES-TI/projects/76/views/1) |
 |Protótipo Interativo - Wireframe | Figma | [Wireframe](https://www.figma.com/proto/cZuvPXMTUubx1HkE5WLvpg/Mobilidade-Urbana---Wireframes?node-id=17%3A1485&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=17%3A63) | 
 |Protótipo Interativo - Userflow | Figma | [Userflow](https://www.figma.com/file/fU3Vj6kHDgNxbCayeD29Dz/Mobilidade-Urbana---User-Flow?node-id=0%3A1) | 
 |Comunicação | Discord e Whatsapp |
