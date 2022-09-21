@@ -177,7 +177,7 @@
 >
 >A seguir é detalhado o user flow elaborado para o projeto, considerando as premissas acima informadas.
 >
->![](images/userflow.png)
+>![](images/userflow-rev.png)
 >
 >Para uma melhor visualização, este fluxo pode ser acessado por meio do seguinte [link](https://www.figma.com/file/wVv0JaD1McTy8OgkEo2D4Z/Buzz%C3%A3o---User-flow?node-id=0%3A1).
 >
