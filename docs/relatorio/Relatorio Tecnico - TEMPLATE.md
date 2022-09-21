@@ -56,7 +56,7 @@
 
 ## Problema
 >
->A utilização do público como principal forma de deslocamento é a realidade de grande parte da população brasileira. Em que pese a sua relevância, os seus usuários são frequentemente surpreendidos por atrasos nas linhas, alteração do horário do ônibus, ou até mesmo uma opção de linha mais viável. Esses eventos, imprevistos, causam diversos impactos ao planejamento das pessoas, como:
+>A utilização do meio de transporte público como principal forma de deslocamento é a realidade de grande parte da população brasileira. Em que pese a sua relevância, os seus usuários são frequentemente surpreendidos por atrasos nas linhas, alteração do horário do ônibus, ou até mesmo uma opção de linha mais viável. Esses eventos, imprevistos, causam diversos impactos ao planejamento das pessoas, como:
 >
 > - Atraso para os seus compromissos;
 > - Tempo de deslocamento incerto;
