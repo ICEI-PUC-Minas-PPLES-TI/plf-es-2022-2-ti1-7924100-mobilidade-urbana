@@ -1,8 +1,8 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
+>
+>Mobilidade Urbana - Buzzão
+>
 `CURSO` 
 >
 > Engenharia de Software - PUC Minas Praça da Liberdade
@@ -52,7 +52,6 @@
   - [Registros de Testes](#registros-de-testes)
 - [Referências](#referências)
 
-
 # Introdução
 
 ## Problema
@@ -74,10 +73,10 @@
 > - Comparar as linhas disponíveis, avaliando qual seria a opção mais viável.
 >
 ## Justificativa
-
->Com base nos dados disponibilizados pela IPEA (Instituto de pesquisa econômica aplicada), 65% da população brasileira utiliza o transporte público como principal forma de deslocamento nas capitais, sendo que esse número cai para 36% em regiões não capitais. Em pesquisas realizadas pelo instituto, verificou-se que mais de 90% dos passageiros consideram que andam em ônibus lotados e esperam mais de 30 minutos nos pontos de ônibus, uma vez que os horários muitas vezes não são respeitados.
 >
->Em pesquisa realizada pela própria equipe do projeto, avaliamos um grupo composto em 87% por jovens de 18 a 30 anos, sendo que 65% são universitários que tem o ônibus como principal meio de transporte. Visando auxiliar os universitarios que utilizam o ônibus diariamente, o projeto em questão busca fornecer melhores rotas, informações acerca das linhas de ônibus e controle dos horários, para os universitários que buscam uma melhor praticidade no momento de deslocamento de sua residência ao local de estudo.
+>Segundo o IPEA (Instituto de pesquisa econômica aplicada), 65% da população brasileira utiliza o transporte público como principal forma de deslocamento nas capitais. Em pesquisas realizadas pelo instituto, verificou-se que mais de 90% dos passageiros consideram que andam em ônibus lotados e esperam mais de 30 minutos nos pontos de ônibus, uma vez que os horários muitas vezes não são respeitados.
+>
+>Em pesquisa realizada pela própria equipe do projeto, avaliamos um grupo composto em 87% por jovens de 18 a 30 anos, sendo que 65% são universitários e utilizam o ônibus como principal meio de transporte. Visando auxiliar os universitarios que andam de ônibus diariamente, o projeto em questão busca fornecer melhores rotas, informações acerca das linhas de ônibus e controle dos horários, para os universitários que buscam maior praticidade no momento de deslocamento de sua residência ao local de estudo.
 >
 ## Público-Alvo
 >
@@ -92,7 +91,7 @@
 > - Restrições: definição dos limites do projeto.
 >
 ## Personas e Mapas de Empatia
-
+>
 >Para um maior conhecimento acerca das pessoas que buscamos atingir e ajudar com esse projeto, foram realizadas entrevistas com 5 pessoas de diferentes áreas e grupos. Esses grupos variam desde estudantes, pessoas que estão estudando e estagiando simultaneamente, e pessoas que já se formaram, e estão inseridas no mercado de trabalho.
 >
 >Ademais, cabe mencionar que as entrevistas contemplaram pessoas que não necessariamente utilizam o ônibus como forma principal de deslocamento em seu dia a dia, mas que, em eventuais situações, fazem uso deste meio de transporte, como é o caso do Pedro e José Carlos. Considerando essas informações, a seguir são apresentadas as Personas mapeadas.
@@ -124,7 +123,7 @@
 >![](imaages/../images/hist-usuarios.png)
 >
 ## Requisitos
-
+>
 >Com base nas pesquisas realizadas pela equipe, foram mapeados os principais requisitos (funcionais e não funcionais) detalham o escopo do projeto.
 >
 ### Requisitos Funcionais
@@ -164,33 +163,17 @@
 |03| Não podem ser feitos aportes financeiros no projeto |
 >
 # Projeto de Interface
-
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
-
+>
+>Pensando em uma forma mais dinâmica de se utilizar o sistema projetado e na praticidade necesária, foi desenhada uma interface com um conceito 'clean'. Ou seja, são necessários poucos cliques para que o usuário consiga a informação que deseja. A principal razão para isso são os cenários nos quais o usuário pode utilizar o Buzzão, seja enquanto se arruma para sair de casa ou enquanto anda na rua, por exemplo. 
+>
+>Neste sentido, a seguir são detalhados o userflow do site e os wireframes projetados.
+>
 ## User Flow
-
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
-
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
 >
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+>A seguir é detalhado o user flow elaborado para o projeto, considerando as pressimas acima informadas.
 >
-> **Exemplo**:
-> 
-> ![Exemplo de UserFlow](images/userflow.jpg)
-
-
+>[](images/userflow.png)
+>
 ## Wireframes
 
 ......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
