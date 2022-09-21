@@ -68,7 +68,7 @@
 >
 ### Objetivos específicos
 >
-> - Apresentar de maneira simples e prática as linhas de ônibus para a faculdade/universidade do usuário;
+> - Apresentar de maneira simples e prática as linhas de ônibus para o destino do usuário;
 > - Demonstrar os horários em que cada uma das linhas passam em um determinado ponto;
 > - Comparar as linhas disponíveis, avaliando qual seria a opção mais viável.
 >
