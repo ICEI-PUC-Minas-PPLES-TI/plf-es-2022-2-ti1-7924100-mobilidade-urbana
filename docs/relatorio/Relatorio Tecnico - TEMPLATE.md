@@ -184,7 +184,7 @@
 >
 >![](images/wireframe1-3.jpg)
 >
->**Página de login, criação de usuário e usuário:** 
+>**Página de login, criação de usuário e perfil:** 
 >
 >![](images/wireframe4-6.jpg)
 >
