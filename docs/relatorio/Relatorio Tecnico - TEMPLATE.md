@@ -125,7 +125,7 @@
 
 >Com base na análise das personas apresentadas acima, foram identificadas as seguintes histórias de usuários:
 >
->![](imaages/../images/hist-usuarios.png)
+>![](imaages/../images/hist-usuarios-rev.png)
 >
 ## Requisitos
 >
