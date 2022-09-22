@@ -155,7 +155,7 @@
 |RNF-003| O sistema deve ser responsivo em um dispositivos móvel | ALTA | 
 |RNF-004| O sistema precisa ser executado tanto em desktops quanto dispositivos móveis | MÉDIA | 
 |RNF-005| O tempo para apresentação da linha do ônibus não pode ser superior a 5 segundos | MÉDIA | 
-|RNF-006| A interface deve possuir uma opção de acessibilidade  | BAIXA | 
+|RNF-006| A interface deve possuir uma opção de layout claro e escuro  | BAIXA | 
 > 
 ## Restrições
 >
