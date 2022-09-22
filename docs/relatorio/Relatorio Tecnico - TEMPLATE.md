@@ -85,7 +85,7 @@
 >
 ## Público-Alvo
 >
->Com base nos dados apresentados no capítulo de Justificativa, o publico alvo do presente estudo serão homens e mulheres, com faixa etária de 18 a 30 anos, que residem em Belo Horizonte, e que utilizam o ônibus como o principal meio de transporte. É necessário que as pessoas tenham um mínimo de contato com aplicativos e sites.
+>Com base nos dados apresentados no capítulo de Justificativa, o publico alvo do presente estudo serão homens e mulheres, com faixa etária de 18 a 30 anos, que residem em Belo Horizonte e utilizam o ônibus como o principal meio de transporte, e que possuem familiaridade com aplicativos e sites.
 > 
 # Especificações do Projeto
 >
