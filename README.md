@@ -19,6 +19,6 @@ A utilização do meio de transporte público como principal forma de deslocamen
 * Roberto Felipe Dias Ferreira da Rocha
 * Felipe Augusto Lara Soares
 
-## Instruções de utilização
+## Instruções de utilização (PENDENTE)
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
