@@ -80,7 +80,7 @@
 >
 >Segundo o IPEA (Instituto de pesquisa econômica aplicada), 65% da população brasileira utiliza o transporte público como principal forma de deslocamento nas capitais. Em pesquisas realizadas pelo instituto, verificou-se que mais de 90% dos passageiros consideram que andam em ônibus lotados e esperam mais de 30 minutos nos pontos de ônibus, uma vez que os horários muitas vezes não são respeitados.
 >
->Em uma pesquisa realizada pela própria equipe do projeto, avaliamos um grupo composto em 88,6% por jovens de 18 a 30 anos, sendo que 68% são pessoas que utilizam o ônibus como principal meio de transporte. Visando auxiliar os usuários que andam de ônibus diariamente, o projeto em questão busca fornecer melhores rotas, informações acerca das linhas de ônibus e controle dos horários, para os usuários que buscam maior praticidade no momento de deslocamento de sua residência ao local desejado.
+>Em pesquisa realizada pela própria equipe do projeto, avaliamos um grupo composto em 88,6% por jovens de 18 a 30 anos, sendo que 68% são pessoas que utilizam o ônibus como principal meio de transporte. Visando auxiliar os usuários que andam de ônibus diariamente, o projeto em questão busca fornecer melhores rotas, informações acerca das linhas de ônibus e controle dos horários, para os usuários que buscam maior praticidade no momento de deslocamento de sua residência ao local desejado.
 
 >
 ## Público-Alvo
