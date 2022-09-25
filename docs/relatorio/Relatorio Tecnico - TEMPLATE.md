@@ -243,7 +243,7 @@
 |Controle de versões | Git |[Git](https://git-scm.com/) |
 |Acompanhamento das atividades - Kanban| GitHub Projects | [Kanban](https://github.com/orgs/ICEI-PUC-Minas-PPLES-TI/projects/76/views/1) |
 |Protótipo Interativo - Wireframe | Figma | [Wireframe](https://www.figma.com/proto/cZuvPXMTUubx1HkE5WLvpg/Mobilidade-Urbana---Wireframes?node-id=17%3A1485&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=17%3A63) | 
-|Protótipo Interativo - Userflow | Figma | [Userflow](https://www.figma.com/file/wVv0JaD1McTy8OgkEo2D4Z/Buzz%C3%A3o---User-flow) | 
+|Fluxo de páginas - Userflow | Figma | [Userflow](https://www.figma.com/file/wVv0JaD1McTy8OgkEo2D4Z/Buzz%C3%A3o---User-flow) | 
 |Editor de código | Visual Studio Code | [Visual Studio Code](https://code.visualstudio.com/) |
 |Comunicação | Discord e Whatsapp | - |
 > 
