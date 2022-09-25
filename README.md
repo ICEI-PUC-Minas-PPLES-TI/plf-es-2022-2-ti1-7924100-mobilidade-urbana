@@ -21,4 +21,4 @@ A utilização do meio de transporte público como principal forma de deslocamen
 
 ## Instruções de utilização (PENDENTE)
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+--Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.--
