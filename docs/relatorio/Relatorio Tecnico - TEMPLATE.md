@@ -1,11 +1,11 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 >
->Mobilidade Urbana - Buzzão
+>Mobilidade Urbana - Buzzão.
 >
 `CURSO` 
 >
-> Engenharia de Software - PUC Minas Praça da Liberdade
+> Engenharia de Software - PUC Minas Praça da Liberdade.
 > 
 ## Participantes
 >
@@ -14,9 +14,9 @@
 > - Guilherme Lage da Costa;
 > - Renato Ramalho Teodoro de Oliveira Júnior;
 > - Eduardo Vilela de Morais Rodrigues Moreira;
+> - Arthur Capanema Bretas;
 > - Mateus Guanabarino Freire de Castro;
-> - Miguel Magalhães Freire de Castro;
-> - Arthur Capanema Bretas.
+> - Miguel Magalhães Freire de Castro.
 >
 # Estrutura do Documento
 
@@ -68,35 +68,37 @@
 
 ### Objetivo geral
 >
->O objetivo geral deste projeto, é desenvolver uma plataforma web que ajude os usuários a terem um maior controle das opções de ônibus disponíveis para chegarem  às suas localizações desejadas de forma dinâmica e objetiva.
+>O objetivo geral deste projeto, é desenvolver uma plataforma web que ajude os usuários a terem um maior controle das opções de ônibus disponíveis para chegarem  aos seus destinos, de forma dinâmica e objetiva.
 >
 ### Objetivos específicos
 >
 > - Apresentar de maneira simples e prática as linhas de ônibus para o destino do usuário;
-> - Demonstrar os horários em que cada uma das linhas passam em um determinado ponto;
-> - Comparar as linhas disponíveis, avaliando qual seria a opção mais viável.
+> - Fornecer os horários em que cada uma das linhas passam em um determinado ponto;
+> - Permitir a comparação entre as linhas disponíveis, ficando à cargo do usuário avaliar qual seria a opção mais viável.
 >
 ## Justificativa
 >
 >Segundo o IPEA (Instituto de pesquisa econômica aplicada), 65% da população brasileira utiliza o transporte público como principal forma de deslocamento nas capitais. Em pesquisas realizadas pelo instituto, verificou-se que mais de 90% dos passageiros consideram que andam em ônibus lotados e esperam mais de 30 minutos nos pontos de ônibus, uma vez que os horários muitas vezes não são respeitados.
 >
->Em pesquisa realizada pela própria equipe do projeto, avaliamos um grupo composto em 88,6% por jovens de 18 a 30 anos, sendo que 68% são pessoas que utilizam o ônibus como principal meio de transporte. Visando auxiliar os usuários que andam de ônibus diariamente, o projeto em questão busca fornecer melhores rotas, informações acerca das linhas de ônibus e controle dos horários, para os usuários que buscam maior praticidade no momento de deslocamento de sua residência ao local desejado.
+>Em pesquisa realizada pela própria equipe do projeto (que pode ser verificada neste link), avaliamos um grupo composto em 89% por jovens de 19 a 30 anos, sendo que 68% são pessoas que utilizam o ônibus como principal meio de transporte. Desse percentual, 69% informaram que já utilizaram um aplicativo de acompanhamento de horários de ônibus, e 52% relataram terem vivenciado problemas em sua utilização (horários incorretos, linha incorreta ou interface ão intuitiva, por exemplo). 
+>
+>Visando auxiliar os usuários que andam de ônibus diariamente, o projeto em questão busca fornecer melhores rotas, informações precisas acerca das linhas de ônibus e controle dos horários, para os usuários que buscam maior praticidade no momento de deslocamento de sua residência ao local desejado.
 >
 ## Público-Alvo
 >
->Com base nos dados apresentados no capítulo de Justificativa, o publico alvo do presente estudo serão homens e mulheres, com faixa etária de 18 a 30 anos, que residem em Belo Horizonte e utilizam o ônibus como o principal meio de transporte, e que possuem familiaridade com aplicativos e sites.
+>Com base nos dados apresentados no capítulo de Justificativa, o publico alvo do presente estudo serão homens e mulheres, com faixa etária de 19 a 30 anos, que residem em Belo Horizonte e utilizam o ônibus como o principal meio de transporte, e que possuem familiaridade com aplicativos e aplicações web no dia a dia.
 > 
 # Especificações do Projeto
 >
 >Nesta seção, será apresentada uma visão mais detalhada e aprofundada do projeto em análise. Para isso, foram utilizadas das seguintes práticas:
 > - Descrição de Personas: busca entender, em uma visão mais pessoal, as dores das pessoas relacionadas com o tema do estudo;
 > - Histórias de usuários: indicação, na visão de usuários e administradores da plataforma, das funcionalidades/capacidades esperadas que podem lhe ajudar;  
-> - Requisitos: quais são nossas 'exigências' em termos de funcionalidades da plataforma (requisitos funcionais) e demais aspectos (requisitos não funcionais); 
-> - Restrições: definição dos limites do projeto.
+> - Requisitos: quais são nossos objetivos em termos de funcionalidades da plataforma (requisitos funcionais) e demais aspectos (requisitos não funcionais); 
+> - Restrições: definição dos limites do escopo do projeto.
 >
 ## Personas e Mapas de Empatia
 >
->Para um maior conhecimento acerca das pessoas que buscamos atingir e ajudar com esse projeto, foram realizadas entrevistas com 5 pessoas de diferentes áreas e grupos. Esses grupos variam desde estudantes, pessoas que estão estudando e estagiando simultaneamente, e pessoas que já se formaram, e estão inseridas no mercado de trabalho.
+>Para um maior conhecimento acerca das pessoas que buscamos atingir e ajudar com esse projeto, foram realizadas entrevistas com 5 pessoas de diferentes áreas de conhecimento e grupos. Esses grupos variam desde estudantes, pessoas que estão estudando e estagiando simultaneamente, e pessoas que já se formaram, e estão inseridas no mercado de trabalho.
 >
 >Ademais, cabe mencionar que as entrevistas contemplaram pessoas que não necessariamente utilizam o ônibus como forma principal de deslocamento em seu dia a dia, mas que, em eventuais situações, fazem uso deste meio de transporte, como é o caso do Pedro e José Carlos. Considerando essas informações, a seguir são apresentadas as Personas mapeadas.
 >
@@ -151,7 +153,7 @@
 |-------|-------------------------|----|
 |RNF-001| Deve conseguir acessar as informações da API do BHtrans e MapBox | ALTA | 
 |RNF-002| O usuário deve ser capaz de encontrar opções de ônibus com menos de 5 cliques | ALTA | 
-|RNF-003| A opção de favoritar linhas e endeços deve ser indicada no momento de pesquisa do usuário | ALTA | 
+|RNF-003| A opção de favoritar linhas e endeços deve ser indicada no momento de pesquisa do usuário (caso logado) | ALTA | 
 |RNF-004| O sistema precisa ser executado tanto em desktops quanto dispositivos móveis | MÉDIA | 
 |RNF-005| O tempo para apresentação da linha do ônibus não pode ser superior a 5 segundos | MÉDIA | 
 |RNF-006| A interface deve possuir uma opção de layout claro e escuro  | BAIXA | 
@@ -196,7 +198,9 @@
 >
 # Metodologia
 >
->A equipe utilizou o Design Thinking em todo o processo de entendimento do problema. Por meio dele, foi possível definir o objetivo, os mapas de personas e as histórias de usuários. Além disso, foram utilizadas diversas práticas do scrum, como reuniões diárias, divisão do grupo por funções, ficando a cargo de cada integrante a seleção das tarefas que ele iria realizar. Utilizamos também um fluxo de revisão, no qual cada integrante do grupo revisou o que foi feito pelos demais componentes.Além do método kanban para realização de atividades, dessa forma o grupo visualizava as atividades mais urgentes e as atividades que demandavam mais tempo e dedicação, esse método contribuiu diretamente para a realização do projeto.
+>A equipe utilizou o Design Thinking em todo o processo de entendimento do problema. Por meio dele, foi possível definir o objetivo, os mapas de personas e as histórias de usuários. Além disso, foram utilizadas diversas práticas do SCRUM, como reuniões diárias, divisão do grupo por funções, ficando a cargo de cada integrante a seleção das tarefas que ele iria realizar. Utilizamos também um fluxo de revisão, no qual cada integrante da equipe deveria revisar o que foi feito pelos demais componentes.
+>
+>Para a distribuição das atividades, utilizamos a metodologia KANBAN, dessa forma foi possível visualizar as atividades mais urgentes, as que demandavam mais tempo e dedicação, e o que cada componente estava trabalhando no momento. Esse método contribuiu diretamente para a realização do projeto de forma fluida e ágil.
 >
 >De modo a fornecer uma visão mais detalhada dos processos realizados pela equipe, apresenta-se a seguir os capítulos de 'divisão de papéis' e 'ferramentas'.
 >
@@ -216,9 +220,9 @@
 | Roberto Felipe | Product owner |
 | Rommel Vieira  | Product owner |
 >
->Conforme supramencionado, para realizar a divisão das atividades entre a equipe, adotamos a metodologia Kanban, em que cada um dos componentes escolhe as atividades que deseja fazer. A figura a seguir ilustra a divisão de tarefas do projeto, que pode ser consultado por meio deste [link](https://github.com/orgs/ICEI-PUC-Minas-PPLES-TI/projects/76/views/1).
+>Conforme supramencionado, para realizar a divisão das atividades entre a equipe, adotamos a metodologia KANBAN, em que cada um dos componentes escolhe as atividades que deseja fazer. A figura a seguir ilustra a divisão de tarefas do projeto, que pode ser consultado por meio deste [link](https://github.com/orgs/ICEI-PUC-Minas-PPLES-TI/projects/76/views/1).
 >
->Para fins de acompanhamento, definimos as atividades foram agrupadas nas seguintes categorias: (i) blocked; (ii) backlog; (iii) in process; (iv) in review; e (v) done, cada uma com suas características, sendo elas:
+>Para fins de acompanhamento, as atividades foram agrupadas nas seguintes categorias: (i) blocked; (ii) backlog; (iii) in process; (iv) in review; e (v) done, cada uma com suas características, sendo elas:
 >  - 🚨 Blocked: atividades que dependem de outras e que não podem ser feitas no momento;
 >  - 📋 Backlog: são as atividades que serão desenvolvidas ao longo da sprint;
 >  - 🏗 In progress: atividades em andamento pela equipe;
@@ -234,16 +238,16 @@
 >
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinking | Miro | [Desing Thinking](https://miro.com/app/board/uXjVPXxT7Fw=/) | 
+|Processo de Design Thinking | Miro | [Desing Thinking](https://miro.com/app/board/uXjVPUYNSag=/?share_link_id=41463230586) | 
 |Repositório online | GitHub | [Repositorio Github](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti1-7924100-mobilidade-urbana) |  
 |Controle de versões | Git |[Git](https://git-scm.com/) |
 |Acompanhamento das atividades - Kanban| GitHub Projects | [Kanban](https://github.com/orgs/ICEI-PUC-Minas-PPLES-TI/projects/76/views/1) |
 |Protótipo Interativo - Wireframe | Figma | [Wireframe](https://www.figma.com/proto/cZuvPXMTUubx1HkE5WLvpg/Mobilidade-Urbana---Wireframes?node-id=17%3A1485&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=17%3A63) | 
-|Protótipo Interativo - Userflow | Figma | [Userflow](https://www.figma.com/file/fU3Vj6kHDgNxbCayeD29Dz/Mobilidade-Urbana---User-Flow?node-id=0%3A1) | 
-|Comunicação | Discord e Whatsapp |
-|Editor de código | Visual Studio Code |
+|Protótipo Interativo - Userflow | Figma | [Userflow](https://www.figma.com/file/wVv0JaD1McTy8OgkEo2D4Z/Buzz%C3%A3o---User-flow) | 
+|Editor de código | Visual Studio Code | [Visual Studio Code](https://code.visualstudio.com/) |
+|Comunicação | Discord e Whatsapp | - |
 > 
->As ferramentas listadas foram utilizadas por conta de sua praticidade na utilização e reconhecimento no mercado.
+>As ferramentas listadas foram utilizadas ao longo de todo o processo, por conta de sua praticidade na utilização e reconhecimento no mercado.
 >
 # **############## SPRINT 1 ACABA AQUI #############**
 
