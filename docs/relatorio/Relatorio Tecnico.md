@@ -328,12 +328,9 @@
 
 
 # Referências
+>
+>PEDUZZI, Pedro. Título: Estudo do Ipea mostra que 65% da população usam transporte público nas capitais. Agência Brasil, 2022. Disponível em: [link](https://memoria.ebc.com.br/agenciabrasil/noticia/2011-05-04/estudo-do-ipea-mostra-que-65-da-populacao-usam-transporte-publico-nas-capitais#:~:text=Bras%C3%ADlia%20%E2%80%93%20Um%20estudo%20divulgado%20hoje,p%C3%A9%20no%20dia%20a%20dia). Acesso em: 19 de setembro de 2022.
+>
+>ASSCOM, Grupo Tiradentes. Título: Os gargalos do transporte público no Brasil. Universidade Tiradentes, 2022. Disponível em: [link](https://portal.unit.br/blog/noticias/os-gargalos-do-transporte-publico-no-brasil/). Acesso em: 24 de setembro de 2022.
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
