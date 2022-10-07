@@ -6,12 +6,11 @@ A utilização do meio de transporte público como principal forma de deslocamen
 
 ## Alunos integrantes da equipe
 
+* Arthur Capanema Bretas
 * Guilherme Lage da Costa
 * Renato Ramalho Teodoro de Oliveira Júnior
-* Eduardo Vilela de Morais Rodrigues Moreira
 * Mateus Guanabarino Freire de Castro
 * Miguel Magalhães Freire de Castro
-* Arthur Capanema Bretas
 
 ## Professores responsáveis
 
