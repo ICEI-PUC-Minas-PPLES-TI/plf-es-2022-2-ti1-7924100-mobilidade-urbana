@@ -9,12 +9,11 @@
 > 
 ## Participantes
 >
-> Equipe envolvida no desenvolvimento do projeto: 
+> Equipe envolvida no desenvolvimento do projeto:
 >
+> - Arthur Capanema Bretas;
 > - Guilherme Lage da Costa;
 > - Renato Ramalho Teodoro de Oliveira Júnior;
-> - Eduardo Vilela de Morais Rodrigues Moreira;
-> - Arthur Capanema Bretas;
 > - Mateus Guanabarino Freire de Castro;
 > - Miguel Magalhães Freire de Castro.
 >
@@ -211,7 +210,6 @@
 | -------- | -------- |
 | Guilherme Lage | Desenvolvedor e Scrum Master |
 | Renato Ramalho | Desenvolvedor |
-| Eduardo Vilela | Desenvolvedor |
 | Miguel Magalhães | Desenvolvedor |
 | Mateus Guanabarino | Desenvolvedor |
 | Arthur Capanema | Desenvolvedor |
