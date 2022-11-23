@@ -1,0 +1,22 @@
+#card {
+  margin-bottom: 20px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #76b784;
+  background-color: #90ff9281;
+  display: none;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+#favorito {
+  display: none;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: yellow;
+  padding: 5px;
+  background: white;
+  margin: 5px;
+}

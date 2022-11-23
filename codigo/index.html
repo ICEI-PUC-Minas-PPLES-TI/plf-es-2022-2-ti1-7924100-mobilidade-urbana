@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font Awesome > para menus em formato mobile -->
+  <script src="https://kit.fontawesome.com/71d3c4b2e6.js" crossorigin="anonymous"></script>
+  <!-- Para importar informações do MapBox -->
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js'></script>
+  <!-- Plugin de direções -->
+  <script src=https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.js></script>
+  <link rel="stylesheet"
+    href=https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.css
+    type="text/css" />
+  <!-- Instação bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <link rel="icon" href="./Assets/Images/icon.png">
+  <link rel="stylesheet" href="./Modules/Guilherme Costa/Sprint-2 - Posição do onibus em tempo real/Styles/index.css" />
+  <link rel="stylesheet" href="./Modules/Arthur Bretas/Sprint-2 - Card de linha de ônibus/Styles/card.css">
+  <script src="./Modules/Guilherme Costa/Sprint-2 - Posição do onibus em tempo real/Scripts/base.js" defer></script>
+  <script type="module" src="./Modules/Guilherme Costa/Sprint-2 - Posição do onibus em tempo real/Scripts/index.js"
+    defer></script>
+  <script type="module" src="./Modules/Arthur Bretas/Sprint-2 - Card de linha de ônibus/Script/favoritos.js"
+    defer></script>
+  <script type="module"
+    src="./Modules/Guilherme Costa/Sprint-3 - Página de login e perfil do usuário/Scripts/verifica_usuario.js"
+    defer></script>
+  <title>Buzzão - Localização de ônibus</title>
+</head>
+
+<body>
+  <header class="container-fluid">
+
+    <div class="row">
+      <div class="col-12">
+        <nav>
+
+          <a href="index.html"><img src="./Assets/Images/logo_buzzao.png" alt="Logo Buzzão" class="logo_buzzao" /></a>
+
+          <!-- Botões para responsividade em dispositivos mobile -->
+          <input type="checkbox" id="check" placeholder="Botao de check - versao mobile" />
+          <label for="check" class="checkbtn">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+            <i class="fa-sharp fa-solid fa-circle-xmark"></i>
+          </label>
+
+          <ul class="menu_horizontal">
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a id="btn_login" href="#">Login</a></li>
+            <li><a href="#"><img id="icon" src="./Assets/Images/sun-solid.svg" alt="Icone modo de exibição de site"></a>
+            </li>
+          </ul>
+
+        </nav>
+      </div>
+    </div>
+
+  </header>
+
+  <main class="container-fluid">
+    <!-- Caixa de alerta de erro - modal -->
+    <dialog>
+      <h5>Linha inválida</h5>
+      <p>Não encontramos essa linha em nossa base de dados. Para sugerir sua inclusão, acesse a página de <a
+          href="#">FeedBack.</a></p>
+      <!-- todo: inserir link para a pagina gerada pelo Renato -->
+      <button>Fechar</button>
+    </dialog>
+
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 area_pesquisa">
+        <input id="input_localizacaoUsuario" type="text" placeholder="Qual a sua localização?" />
+        <button id="btn_localizacaoUsuario" type="submit" title="Botao para pesquisar localizacao do usuario">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 area_pesquisa">
+        <input id="input_linhaOnibus" type="text" placeholder="Qual a linha do ônibus?" />
+        <button id="btn_linhaOnibus" type="submit" title="Botao para pesquisar linha de onibus">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- todo: inserir no card gerado pelo Arthur -->
+    <!-- Card de pesquisa linha de ônibus -->
+    <div class="row">
+      <div class="col-12">
+
+        <div id="card">
+          <div class="card-body">
+            <h5 id="numero_linha"></h5>
+            <ul class="list-group">
+              <li id="tempo_espera"></li>
+              <li id="tarifa"></li>
+            </ul>
+            <button id="favorito"><b>Favoritar</b></button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+        <div id="map"></div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="container-fluid">
+
+    <div class="row">
+      <div class="col-12">
+        <p>
+          © Copyright 2022 Equipe Buzzão - Engenharia de Software PUC Minas
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

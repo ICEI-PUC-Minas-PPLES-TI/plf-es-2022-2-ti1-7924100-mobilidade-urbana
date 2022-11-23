@@ -1,0 +1,48 @@
+#login {
+  margin-top: 100px;
+  color: var(--texto_rodape);
+}
+
+#login h3 {
+  color: var(--cor_active);
+}
+
+#botao_entrar,
+#botao_criarConta {
+  background-color: var(--cor_primaria);
+  border: none;
+  font-weight: bold;
+}
+
+#botao_entrar:hover,
+#botao_criarConta:hover {
+  background-color: var(--cor_secundaria);
+}
+
+#botao_entrar:active,
+#botao_criarConta:active {
+  background-color: var(--cor_active);
+}
+
+/* Modal de criação de novo usuário */
+#modal-novoUsuario {
+  color: black;
+}
+
+#modal-novoUsuario h3 {
+  color: var(--cor_active);
+}
+
+#btn_salvar {
+  background-color: var(--cor_primaria);
+  border: none;
+  font-weight: bold;
+}
+
+#btn_salvar:hover {
+  background-color: var(--cor_secundaria);
+}
+
+#btn_salvar:active {
+  background-color: var(--cor_active);
+}

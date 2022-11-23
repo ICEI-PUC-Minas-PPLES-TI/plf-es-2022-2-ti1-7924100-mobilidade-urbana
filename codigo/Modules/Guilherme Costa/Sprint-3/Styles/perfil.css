@@ -1,0 +1,200 @@
+/** Configuracoes gerais da pagina */
+* {
+  caret-color: transparent;
+}
+
+/** Configuracoes do menu lateral */
+.menu-lateral {
+  grid-column: 1/2;
+  grid-row: 1/5;
+}
+
+.menu-lateral li {
+  font-size: 1.4em;
+  cursor: pointer;
+  margin: 50px 10px;
+  color: var(--texto_rodape);
+}
+
+.menu-lateral li.active {
+  color: var(--cor_active);
+}
+
+/** Configuracoes dos cards do perfil - usuario, linhas favoritas, feedbacks e preferencias */
+.informacoes-usuario {
+  display: grid;
+  margin-top: 10px;
+  justify-content: center;
+  gap: 15px;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(5, 110px);
+}
+
+#card-usuario,
+#favoritos-usuario,
+#feedback-usuario {
+  display: none;
+}
+
+#card-usuario.active,
+#favoritos-usuario.active,
+#feedback-usuario.active {
+  display: block;
+}
+
+/* Card do usuario */
+#card-usuario {
+  grid-column: 2/3;
+  grid-row: 1/5;
+  padding: 10px;
+  background: var(--cor_cardUsuario);
+  border-radius: 15px;
+}
+
+.foto-usuario {
+  text-align: center;
+}
+
+.foto-usuario img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+#input-trocarFoto {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+#nome-usuario,
+#email-usuario,
+#senha-usuario {
+  margin: 20px 0;
+}
+
+#nome-usuario {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#input-senha {
+  border: none;
+  background: var(--cor_cardUsuario);
+}
+
+/* Area de favoritos */
+#favoritos-usuario {
+  grid-column: 3/4;
+  grid-row: 1/5;
+  padding: 10px;
+  background: var(--cor_cardUsuario);
+  border-radius: 15px;
+}
+
+.titulo-card {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#favoritos-usuario li {
+  margin: 20px 0;
+}
+
+/* Aba de feedbacks */
+#feedback-usuario {
+  grid-column: 2/4;
+  grid-row: 1/5;
+  padding: 10px;
+  background: var(--cor_cardUsuario);
+  border-radius: 15px;
+}
+
+/*! Configuracoes de responsividade */
+@media screen and (max-width: 480px) {
+  .informacoes-usuario {
+    display: block;
+    width: 100%;
+  }
+
+  .menu-lateral li {
+    display: inline;
+    font-size: 1em;
+  }
+
+  #card-usuario {
+    margin-bottom: 15px;
+    font-size: 0.8em;
+  }
+
+  #favoritos-usuario {
+    font-size: 0.8em;
+  }
+
+  #feedback-usuario {
+    font-size: 0.8em;
+  }
+
+  .foto-usuario img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .informacoes-usuario {
+    width: 100%;
+    display: block;
+  }
+
+  .menu-lateral {
+    text-align: center;
+  }
+
+  .menu-lateral li {
+    display: inline;
+    font-size: 1.2em;
+  }
+
+  #card-usuario {
+    margin-bottom: 15px;
+    font-size: 0.8em;
+  }
+
+  #favoritos-usuario {
+    font-size: 0.8em;
+  }
+
+  #favoritos-usuario li {
+    margin: 10px 0;
+  }
+
+  #feedback-usuario {
+    font-size: 0.8em;
+  }
+
+  .foto-usuario img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .informacoes-usuario {
+    width: 100%;
+    display: block;
+  }
+
+  .menu-lateral {
+    text-align: center;
+  }
+
+  .menu-lateral li {
+    display: inline;
+    font-size: 1.3em;
+  }
+
+  #card-usuario {
+    margin-bottom: 15px;
+  }
+}

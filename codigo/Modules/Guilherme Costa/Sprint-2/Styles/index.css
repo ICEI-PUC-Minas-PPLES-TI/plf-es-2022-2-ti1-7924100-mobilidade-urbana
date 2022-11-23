@@ -1,0 +1,362 @@
+/** Configuracoes gerais da pagina */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+body {
+  background: var(--cor_terciaria);
+}
+
+:root {
+  --cor_primaria: #339966;
+  --cor_secundaria: #6e9984;
+  --cor_terciaria: white;
+  --cor_bordas: #adadad;
+  --cor_active: #ff523b;
+  --texto_rodape: black;
+  --cor_cardUsuario: rgb(236, 236, 236);
+}
+
+.dark-mode {
+  --cor_primaria: #282d34;
+  --cor_secundaria: #383c43;
+  --cor_terciaria: #4d535c;
+  --cor_bordas: #adadad;
+  --cor_active: #bbe94e;
+  --texto_rodape: white;
+  --cor_cardUsuario: rgb(236, 236, 236);
+}
+
+/** Menu de navegacao */
+header {
+  height: 60px;
+  background: var(--cor_primaria);
+}
+
+.logo_buzzao {
+  margin-top: 9px;
+  width: 150px;
+}
+
+.menu_horizontal {
+  float: right;
+  line-height: 60px;
+  margin-right: 50px;
+}
+
+.menu_horizontal li {
+  display: inline-block;
+  margin-right: 25px;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.menu_horizontal li a {
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.menu_horizontal li a:hover {
+  background: var(--cor_secundaria);
+  transition: all 0.5s;
+}
+
+.menu_horizontal li a:active {
+  background: var(--cor_active);
+  transition: 0s;
+}
+
+/* Alteracao do menu de navegacao para mobile - de lista > icones */
+#check {
+  display: none;
+}
+
+.checkbtn {
+  margin-right: 20px;
+  font-size: 1.5em;
+  color: white;
+  float: right;
+  line-height: 60px;
+  cursor: pointer;
+  display: none;
+}
+
+/* Icones de light e dark mode */
+#icon {
+  width: 20px;
+  cursor: pointer;
+  filter: invert();
+}
+
+/** Conteudo principal da pagina */
+main {
+  background: var(--cor_terciaria);
+}
+
+.area_pesquisa {
+  padding: 20px;
+  text-align: center;
+}
+
+.area_pesquisa button {
+  border-radius: 5px;
+  border-color: var(--cor_bordas);
+  border-style: solid;
+  width: 50px;
+  background: var(--cor_primaria);
+  color: white;
+}
+
+.area_pesquisa button:active {
+  background: var(--cor_active);
+  transition: all 0.1s;
+}
+
+.area_pesquisa button:hover {
+  background: var(--cor_secundaria);
+  transition: box-shadow 0.3s;
+}
+
+.area_pesquisa input {
+  width: 40vw;
+  border-color: var(--cor_bordas);
+  border-style: solid;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.area_pesquisa input:hover {
+  border-color: var(--cor_secundaria);
+  transition: all 0.5s;
+}
+/* Configuracoes do mapa */
+#map {
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.mapboxgl-popup-content {
+  width: 110px;
+  height: 30px;
+  text-align: center;
+}
+
+.mapboxgl-popup-content h3 {
+  font-size: 1em;
+}
+
+/* Itens ocultos da API (direcoes A, B, perfis de deslocoamento - driving, traffic, etc e sugestões 2 a 5 da lista de enderecos) */
+#mapbox-directions-origin-input,
+.mapbox-directions-profile,
+.mapbox-directions-origin,
+button.directions-icon,
+.mapbox-form-label,
+.geocoder-icon-search + input,
+.geocoder-pin-right,
+.directions-control-instructions {
+  display: none;
+  border: none;
+  box-shadow: none;
+}
+
+/*Configuracoes do card de delocamento (apresentacao do tempo de espera) */
+#card_tempoDeslocamento {
+  display: none;
+}
+
+/** Rodape  */
+footer {
+  height: 40px;
+  text-align: center;
+}
+
+footer p {
+  line-height: 40px;
+  color: var(--texto_rodape);
+}
+
+/** Configuracoes de modal */
+dialog {
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 0 1em lightslategray;
+}
+
+dialog h5 {
+  color: red;
+  font-weight: bold;
+}
+
+dialog p {
+  font-size: 0.8em;
+}
+
+dialog a,
+dialog a:hover {
+  color: var(--cor_primaria);
+  font-weight: bolder;
+}
+
+dialog > button {
+  border-radius: 5px;
+  padding: 2px;
+  border: 2px solid var(--cor_bordas);
+  font-weight: bold;
+  color: var(--cor_primaria);
+}
+
+dialog > button:active {
+  background: var(--cor_secundaria);
+  color: white;
+  transition: all 0.1s;
+}
+
+dialog::backdrop {
+  background: rgb(0 0 0 / 0.3);
+}
+
+/*! Configuracoes de responsividade */
+@media screen and (max-width: 480px) {
+  /** Menu de navegacao */
+  header {
+    border-radius: 0;
+    margin-top: 0;
+  }
+
+  .checkbtn {
+    display: block;
+    position: absolute;
+    top: 17px;
+    right: 10px;
+  }
+
+  #check:checked ~ .menu_horizontal {
+    left: 0;
+  }
+
+  #check:checked ~ .checkbtn i:first-child {
+    display: none;
+  }
+
+  #check:checked ~ .checkbtn i:nth-child(2) {
+    display: block;
+  }
+
+  #check:not(checked) ~ .checkbtn i:first-child {
+    display: block;
+  }
+
+  #check:not(checked) ~ .checkbtn i:nth-child(2) {
+    display: none;
+  }
+
+  .menu_horizontal {
+    position: fixed;
+    width: 100%;
+    height: 350px;
+    background: var(--cor_secundaria);
+    left: -100%;
+    transition: all 0.5s;
+    top: 60px;
+    text-align: center;
+    z-index: 10;
+    border-bottom: 2px solid var(--cor_primaria);
+  }
+
+  .menu_horizontal li {
+    display: block;
+    margin-top: 25px;
+  }
+
+  .menu_horizontal li a {
+    color: white;
+    font-size: 20px;
+  }
+
+  .menu_horizontal li a:hover,
+  .menu_horizontal li a:active {
+    background: none;
+    color: var(--cor_active);
+  }
+
+  /** Conteudo principal da pagina */
+  main {
+    border-radius: 0;
+  }
+
+  .area_pesquisa {
+    padding: 8px;
+  }
+
+  .area_pesquisa input {
+    width: 260px;
+  }
+
+  /* Configuracoes do mapa */
+  #map {
+    width: 100%;
+    height: 400px;
+  }
+
+  /** Rodape */
+  footer {
+    border-radius: 0;
+  }
+
+  footer p {
+    font-size: 0.65em;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /** Menu de navegacao */
+  .menu_horizontal li {
+    margin-right: 10px;
+    font-size: 0.8em;
+  }
+
+  /** Conteudo principal da pagina */
+  .area_pesquisa {
+    padding: 10px;
+  }
+
+  .area_pesquisa input {
+    width: 400px;
+  }
+
+  #map {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+  /*! Media especifica para tablets na posicao de retrato */
+  /** Menu de navegacao */
+  .area_pesquisa input {
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  /** Conteudo principal da pagina */
+  .area_pesquisa {
+    padding: 10px;
+  }
+
+  .area_pesquisa input {
+    width: 600px;
+  }
+}
