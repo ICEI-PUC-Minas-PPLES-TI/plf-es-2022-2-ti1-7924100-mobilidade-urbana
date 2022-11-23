@@ -9,12 +9,11 @@
 > 
 ## Participantes
 >
-> Equipe envolvida no desenvolvimento do projeto: 
+> Equipe envolvida no desenvolvimento do projeto:
 >
+> - Arthur Capanema Bretas;
 > - Guilherme Lage da Costa;
 > - Renato Ramalho Teodoro de Oliveira Júnior;
-> - Eduardo Vilela de Morais Rodrigues Moreira;
-> - Arthur Capanema Bretas;
 > - Mateus Guanabarino Freire de Castro;
 > - Miguel Magalhães Freire de Castro.
 >
@@ -136,27 +135,26 @@
 >
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário salve os seus destinos | ALTA | 
-|RF-002| Mostrar a posição do ônibus em tempo real   | ALTA |
+|RF-001| Permitir que o usuário salve os seus destinos e endereços | ALTA |
+|RF-002| Mostrar a posição do ônibus em tempo real   | ALTA |
 |RF-003| Apresentar o horário de chegada esperado do ônibus | ALTA |
 |RF-004| Apresentar os pontos nos quais o ônibus irá passar | MÉDIA |
-|RF-005| Ter uma página com todas as informações de uma determinada linha específica | MÉDIA |
-|RF-006| Ter uma página para o usuário ver os seus destinos salvos | MÉDIA |
+|RF-005| Permitir que o usuário informe como localização o local atual dele, conforme GPS | MÉDIA |
+|RF-006| Mostrar os pontos de ônibus próximos do usuário| MÉDIA |
 |RF-007| Ver o custo para realizar o trajeto (com base na tarifa do ônibus) | MÉDIA |
-|RF-008| Indicar qual seria a melhor linha, considerando o tempo médio e custo previsto | BAIXA |
+|RF-008| Mostrar tempo estimado de deslocamento na viagem | BAIXA |
 |RF-009| Conceder informações sobre a ocupação dos ônibus | BAIXA |
-|RF-010| Alertar o usuário quando o seu ônibus estiver atrasado  | BAIXA |
+|RF-010| Alertar o usuário quando o seu ônibus estiver atrasado  | BAIXA |
 >
 ### Requisitos não Funcionais
 >
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Deve conseguir acessar as informações da API do BHtrans e MapBox | ALTA | 
-|RNF-002| O usuário deve ser capaz de encontrar opções de ônibus com menos de 5 cliques | ALTA | 
-|RNF-003| A opção de favoritar linhas e endeços deve ser indicada no momento de pesquisa do usuário (caso logado) | ALTA | 
-|RNF-004| O sistema precisa ser executado tanto em desktops quanto dispositivos móveis | MÉDIA | 
-|RNF-005| O tempo para apresentação da linha do ônibus não pode ser superior a 5 segundos | MÉDIA | 
-|RNF-006| A interface deve possuir uma opção de layout claro e escuro  | BAIXA | 
+|RNF-001| O usuário deve ser capaz de encontrar opções de ônibus com menos de 5 cliques | ALTA |
+|RNF-002| A opção de favoritar linhas e endeços deve ser indicada no momento de pesquisa do usuário (caso logado) | ALTA |
+|RNF-003| O sistema precisa ser executado tanto em desktops quanto dispositivos móveis | MÉDIA |
+|RNF-004| O tempo para apresentação da linha do ônibus não pode ser superior a 5 segundos | MÉDIA |
+|RNF-005| A interface deve possuir uma opção de layout claro e escuro  | BAIXA |
 > 
 ## Restrições
 >
@@ -212,7 +210,6 @@
 | -------- | -------- |
 | Guilherme Lage | Desenvolvedor e Scrum Master |
 | Renato Ramalho | Desenvolvedor |
-| Eduardo Vilela | Desenvolvedor |
 | Miguel Magalhães | Desenvolvedor |
 | Mateus Guanabarino | Desenvolvedor |
 | Arthur Capanema | Desenvolvedor |
