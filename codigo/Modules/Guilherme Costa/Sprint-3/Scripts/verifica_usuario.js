@@ -5,7 +5,7 @@
 import {
   usuarioCorrente,
   usuarioCorrenteJSON,
-} from '../../Sprint-2 - Posição do onibus em tempo real/Scripts/index.js';
+} from '../../Sprint-2/Scripts/index.js';
 
 var usuario = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
 
@@ -16,12 +16,12 @@ document.body.onload = () => {
       .querySelector('#btn_login')
       .setAttribute(
         'href',
-        'Modules/Guilherme Costa/Sprint-3 - Página de login e perfil do usuário/HTML/login.html'
+        'Modules/Guilherme Costa/Sprint-3/HTML/login.html'
       );
     document.querySelector('#btn_login').innerHTML = 'Login';
     // Se tiver usuario logado.
   } else {
-    document.querySelector('#btn_login').setAttribute('href','Modules/Guilherme Costa/Sprint-3 - Página de login e perfil do usuário/HTML/perfil.html');
+    document.querySelector('#btn_login').setAttribute('href','Modules/Guilherme Costa/Sprint-3/HTML/perfil.html');
     document.querySelector('#btn_login').innerHTML = usuario.login;
     document.querySelector("#favorito").style.display = "block";
   }

@@ -38,8 +38,40 @@ const dadosIniciais = {
       email: 'usuario@buzzao.com',
       foto: 'https://picsum.photos/200/300',
       favoritos: [
-        { linha: 1502, tarifa: 'R$ 4,50' },
-        { linha: 9502, tarifa: 'R$ 4,50' },
+        {
+          NL: '700',
+          Tarifa: 'R$ 4,50',
+          linha: 9801,
+          infoBH: {
+            EV: '105',
+            HR: '20221011085833',
+            LT: -19.905378,
+            LG: -43.943809,
+            NV: '40670',
+            VL: '28',
+            NL: '700',
+            DG: '320',
+            SV: '1',
+            DT: '9120',
+          },
+        },
+        {
+          NL: '3999',
+          Tarifa: 'R$ 4,50',
+          linha: 342,
+          infoBH: {
+            EV: '105',
+            HR: '20221011085815',
+            LT: -19.994968,
+            LG: -44.022817,
+            NV: '30719',
+            VL: '28',
+            NL: '3999',
+            DG: '304',
+            SV: '1',
+            DT: '14352',
+          },
+        },
       ],
     },
     {
@@ -50,8 +82,40 @@ const dadosIniciais = {
       email: 'admin@buzzao.com',
       foto: 'https://picsum.photos/200/300',
       favoritos: [
-        { linha: 3503, tarifa: 'R$ 4,50' },
-        { linha: 2101, tarifa: 'R$ 4,50' },
+        {
+          NL: '700',
+          Tarifa: 'R$ 4,50',
+          linha: 9801,
+          infoBH: {
+            EV: '105',
+            HR: '20221011085833',
+            LT: -19.905378,
+            LG: -43.943809,
+            NV: '40670',
+            VL: '28',
+            NL: '700',
+            DG: '320',
+            SV: '1',
+            DT: '9120',
+          },
+        },
+        {
+          NL: '3999',
+          Tarifa: 'R$ 4,50',
+          linha: 342,
+          infoBH: {
+            EV: '105',
+            HR: '20221011085815',
+            LT: -19.994968,
+            LG: -44.022817,
+            NV: '30719',
+            VL: '28',
+            NL: '3999',
+            DG: '304',
+            SV: '1',
+            DT: '14352',
+          },
+        },
       ],
     },
   ],
@@ -147,8 +211,8 @@ var listaLateral = document.querySelectorAll('.lista-lateral');
 
 // ------------------Aba de Conta ------------------
 var btnConta = document.querySelector('#conta');
-
-btnConta.addEventListener('click', imprimeTelaConta);
+if (typeof usuarioCorrente.login != 'undefined')
+  btnConta.addEventListener('click', imprimeTelaConta);
 
 function imprimeTelaConta() {
   for (let i = 0; i < listaLateral.length; i++) {
@@ -172,12 +236,10 @@ function imprimeTelaConta() {
               </li>
           </ul>`;
 
-  favsUsuario = `<ul> 
-                    <li class="titulo-card">Linhas favoritas:</li>
-                    <li>1502</li>
-                    <li>2101</li>
-                    <li>9502</li> 
-                  </ul>`;
+  favsUsuario = `<h1 class="titulo-card">Linhas favoritas:</h1>`;
+  for (let j = 0; j < usuarioCorrente.favoritos.length; j++) {
+    favsUsuario += `<p>${usuarioCorrente.favoritos[j].linha}</p>`;
+  }
 
   document.querySelector('#card-usuario').innerHTML = infoUsuario;
   document.querySelector('#favoritos-usuario').innerHTML = favsUsuario;
@@ -244,29 +306,31 @@ function salvarFotoLocalstorage(usuario_Conta, imageURI) {
 // ------------------Aba de Feedbacks------------------
 var btnFeedback = document.querySelector('#feedbacks');
 
-btnFeedback.addEventListener('click', () => {
-  for (let i = 0; i < listaLateral.length; i++) {
-    if (listaLateral[i].classList.contains('active'))
-      listaLateral[i].classList.remove('active');
-  }
+if (typeof usuarioCorrente.login != 'undefined') {
+  btnFeedback.addEventListener('click', () => {
+    for (let i = 0; i < listaLateral.length; i++) {
+      if (listaLateral[i].classList.contains('active'))
+        listaLateral[i].classList.remove('active');
+    }
 
-  // Gerar o card.
-  let feedbacks = '';
+    // Gerar o card.
+    let feedbacks = '';
 
-  feedbacks = `<ul>
-            <li class="titulo-card">Feedbacks em aberto:</li>
-            <li>Horario errado...</li>
-            <li>Inclusao de linha...</li>
-          </ul>`;
+    feedbacks = `<ul>
+              <li class="titulo-card">Feedbacks em aberto:</li>
+              <li>Horario errado...</li>
+              <li>Inclusao de linha...</li>
+            </ul>`;
 
-  document.querySelector('#feedback-usuario').innerHTML = feedbacks;
+    document.querySelector('#feedback-usuario').innerHTML = feedbacks;
 
-  // Limpar classes ativas da pagina.
-  document.querySelector('#card-usuario').classList.remove('active');
-  document.querySelector('#favoritos-usuario').classList.remove('active');
-  document.querySelector('#feedback-usuario').classList.remove('active');
+    // Limpar classes ativas da pagina.
+    document.querySelector('#card-usuario').classList.remove('active');
+    document.querySelector('#favoritos-usuario').classList.remove('active');
+    document.querySelector('#feedback-usuario').classList.remove('active');
 
-  // Adicionar classes ativas.
-  document.querySelector('#feedback-usuario').classList.toggle('active');
-  btnFeedback.classList.toggle('active');
-});
+    // Adicionar classes ativas.
+    document.querySelector('#feedback-usuario').classList.toggle('active');
+    btnFeedback.classList.toggle('active');
+  });
+}

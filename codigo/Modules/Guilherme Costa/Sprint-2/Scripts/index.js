@@ -45,6 +45,8 @@ map.scrollZoom.enable(); //Habilita opcão de zoom no mapa pelo usuário.
 const usuario = document.getElementById('input_localizacaoUsuario');
 
 // Solicita acesso a localizacao do usuario.
+var posicaoUsuario = [];
+
 usuario.addEventListener('click', () => {
   navigator.geolocation.getCurrentPosition(
     localizacaoUsuario_sucesso,
@@ -53,8 +55,6 @@ usuario.addEventListener('click', () => {
   );
 
   function localizacaoUsuario_sucesso(coordenadasUsuario) {
-    console.log(coordenadasUsuario);
-
     // Obtem dados de longitude e latitude do usuário.
     let lonUsuario = coordenadasUsuario.coords.longitude;
     let latUsuario = coordenadasUsuario.coords.latitude;
@@ -64,8 +64,6 @@ usuario.addEventListener('click', () => {
     const btnUsuario = document.getElementById('btn_localizacaoUsuario');
 
     btnUsuario.addEventListener('click', () => {
-      let posicaoUsuario = [];
-
       posicaoUsuario = [lonUsuario, latUsuario];
 
       directions.setOrigin(posicaoUsuario);
@@ -100,12 +98,16 @@ map.on('load', () => {
       }
     }
     // Para apresentar o tempo de deslocamento do ônibus até a localização do usuário.
-    setInterval(function () {
-      document.querySelector('#tempo_espera').innerHTML = `<b>Tempo de espera:</b> ${
-        document.querySelector('.mapbox-directions-route-summary span')
-          .innerHTML
-      }`;
-    }, 1000);
+    if (posicaoUsuario.length>0) {
+      setInterval(function () {
+        document.querySelector(
+          '#tempo_espera'
+        ).innerHTML = `<b>Tempo de espera:</b> ${
+          document.querySelector('.mapbox-directions-route-summary span')
+            .innerHTML
+        }`;
+      }, 200);
+    }
 
     if (dataBaseTemLinha != true) linhaValida();
   });

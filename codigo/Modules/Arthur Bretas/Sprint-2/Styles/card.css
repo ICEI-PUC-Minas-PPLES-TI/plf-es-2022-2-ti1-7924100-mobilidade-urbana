@@ -1,9 +1,18 @@
+*{
+  caret-color: transparent;
+}
+
+.area_card {
+  display: flex;
+  justify-content: center;
+}
+
 #card {
+  width: 43vw;
   margin-bottom: 20px;
-  border-style: solid;
   border-radius: 10px;
-  border-color: #76b784;
-  background-color: #90ff9281;
+  border: 2px solid var(--cor_primaria);
+  background-color: var(--cor_cardUsuario);
   display: none;
 }
 
@@ -15,7 +24,7 @@
   display: none;
   border-style: solid;
   border-radius: 15px;
-  border-color: yellow;
+  border-color: var(--cor_primaria);
   padding: 5px;
   background: white;
   margin: 5px;
