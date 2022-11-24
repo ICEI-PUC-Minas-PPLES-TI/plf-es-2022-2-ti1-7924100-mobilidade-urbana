@@ -236,6 +236,7 @@ function imprimeTelaConta() {
               </li>
           </ul>`;
 
+  // Gera card de favoritos.
   favsUsuario = `<h1 class="titulo-card">Linhas favoritas:</h1>`;
   for (let j = 0; j < usuarioCorrente.favoritos.length; j++) {
     favsUsuario += `<p>${usuarioCorrente.favoritos[j].linha}</p>`;
