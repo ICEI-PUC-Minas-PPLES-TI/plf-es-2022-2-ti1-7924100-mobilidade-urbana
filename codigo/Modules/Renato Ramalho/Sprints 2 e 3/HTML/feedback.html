@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font Awesome > para menus em formato mobile -->
+  <script src="https://kit.fontawesome.com/71d3c4b2e6.js" crossorigin="anonymous"></script>
+  <!-- Instação bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <link rel="icon" href="../../../../Assets/Images/icon.png">
+  <link rel="stylesheet" href="../../../Guilherme Costa/Sprint-2/Styles/index.css" />
+  <link rel="stylesheet" href="../Styles/feedback.css">
+  <script src="../../../Guilherme Costa/Sprint-2/Scripts/base.js" defer></script>
+  <script type="module" src="../../../Guilherme Costa/Sprint-3/Scripts/verifica_usuarioFeedback.js" defer></script>
+  <script src="../Scripts/feedback.js" defer></script>
+  <title>Buzzão - Localização de ônibus</title>
+</head>
+
+<body>
+  <header class="container-fluid">
+
+    <div class="row">
+      <div class="col-12">
+        <nav>
+
+          <a href="../../../../index.html"><img src="../../../../Assets/Images/logo_buzzao.png" alt="Logo Buzzão"
+              class="logo_buzzao" /></a>
+
+          <!-- Botões para responsividade em dispositivos mobile -->
+          <input type="checkbox" id="check" placeholder="Botao de check - versao mobile" />
+          <label for="check" class="checkbtn">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+            <i class="fa-sharp fa-solid fa-circle-xmark"></i>
+          </label>
+
+          <ul class="menu_horizontal">
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a id="btn_login" href="#">Login</a></li>
+            <li><a href="#"><img id="icon" src="/codigo/Assets/Images/sun-solid.svg" alt="Modo de exibição"></a>
+            </li>
+          </ul>
+
+        </nav>
+      </div>
+    </div>
+
+  </header>
+
+  <main class="container-fluid area_box">
+
+    <div id="progress_bar"></div>
+    <form class="questions_box">
+
+      <div id="question-1">
+        <h2>Pergunta 1</h2>
+        <h3>O quanto você está satisfeito com o nosso site?</h3>
+        <input id="question-1-answer-a" type="radio" name="favelang" value="0.5"> Insatisfeito<br>
+        <input id="question-1-answer-b" type="radio" name="favelang" value="1"> Neutro<br>
+        <input id="question-1-answer-c" type="radio" name="favelang" value="2"> Satisfeito<br>
+        <div id="submit1" class="button">Enviar Resposta</div>
+        <div class="clearfix"></div>
+      </div>
+
+      <div id="question-2">
+        <h2>Pergunta 2</h2>
+        <h3>Você conseguiu ter o acesso a todas as informações solicitadas?</h3>
+        <input id="question-2-answer-a" type="radio" name="favelang" value="0.5"> Não recebi nada do que
+        desejava<br>
+        <input id="question-2-answer-b" type="radio" name="favelang" value="1"> Algumas, mas não todas<br>
+        <input id="question-2-answer-c" type="radio" name="favelang" value="2"> Sim, recebi todas as respostas
+        desejadas<br>
+        <div id="submit2" class="button">Enviar Resposta</div>
+        <div class="clearfix"></div>
+      </div>
+
+      <div id="question-3">
+        <h2>Pergunta 3</h2>
+        <h3>Os horários e valores de ônibus estavam de acordo com a realidade?</h3>
+        <input id="question-3-answer-a" type="radio" name="favelang" value="0.5"> Não, estavam incorretos.<br>
+        <input id="question-3-answer-b" type="radio" name="favelang" value="1"> Apenas o horário ou o valor
+        estavam corretos<br>
+        <input id="question-3-answer-c" type="radio" name="favelang" value="2"> Sim! Ambos estavam de
+        acordo<br>
+        <div id="submit3" class="button">Enviar Resposta</div>
+        <div class="clearfix"></div>
+      </div>
+
+      <div id="question-4">
+        <h2>Pergunta 4</h2>
+        <h3>O site foi fácil de ser manuseado?</h3>
+        <input id="question-1-answer-a" type="radio" name="favelang" value="0.5"> Não, muito complicado. <br>
+        <input id="question-1-answer-b" type="radio" name="favelang" value="1"> Não foi difícil, mas poderia ser
+        mais fácil<br>
+        <input id="question-1-answer-c" type="radio" name="favelang" value="2"> Sim, o site é bem objetivo e
+        fácil de ser usado<br>
+        <div id="submit4" class="button">Enviar Resposta</div>
+        <div class="clearfix"></div>
+      </div>
+
+      <div id="question-5">
+        <h2>Pergunta 5</h2>
+        <h3>Você recomendaria o nosso site para amigos e familiares?</h3>
+        <input id="question-1-answer-a" type="radio" name="favelang" value="0.5"> Não, não recomendaria isso
+        para nínguem<br>
+        <input id="question-1-answer-b" type="radio" name="favelang" value="1"> Possivelmente<br>
+        <input id="question-1-answer-c" type="radio" name="favelang" value="2"> Com certeza!<br>
+        <div id="submit5" class="button">Enviar Resposta</div>
+        <div class="clearfix"></div>
+      </div>
+
+      <div id="question-6">
+        <h2>Obrigado por responder a pesquisa!</h2>
+        <h9>Essas perguntas serão usadas para avaliar a nossa qualidade e tornarmos o nosso site cada vez melhor
+          para vocês, usuários!</h4>
+          <h3>De acordo com sua avaliação, nosso score de qualidade é: </h3>
+          <h1 id=printtotalscore></h1>
+          <p id=printscoreinfo></p>
+          <h8>Deixe para nós um comentário ou caso não queira, apenas clique em salvar.</h8>
+
+
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 area_pesquisa">
+              <input id="input_linhaFeedback" type="text" placeholder="Digite aqui" />
+
+              <br><br><button id="btn_salvartrajeto">Salvar</button>
+            </div>
+          </div>
+    </form>
+
+  </main>
+
+  <footer class="container-fluid">
+
+    <div class="row">
+      <div class="col-12">
+        <p>
+          © Copyright 2022 Equipe Buzzão - Engenharia de Software PUC Minas
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

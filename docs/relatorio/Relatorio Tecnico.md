@@ -306,7 +306,7 @@
 
 ## Registros de Testes
 
-...... COLOQUE AQUI O SEU TEXTO ......
+> O plano de teste foi  realizado com XXX participantes, sendo que 5 deles já conheciam o objetivo do projeto (participaram da etapa de personas), e 2 que ainda não conheciam.
 
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
 > fracos identificados na solução. Comente como o grupo pretende atacar

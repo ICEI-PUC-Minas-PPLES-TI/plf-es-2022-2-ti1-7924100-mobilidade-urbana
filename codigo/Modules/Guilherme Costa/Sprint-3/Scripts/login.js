@@ -37,6 +37,7 @@ const dadosIniciais = {
       nome: 'Usuário de teste',
       email: 'usuario@buzzao.com',
       foto: 'https://picsum.photos/200/300',
+      comentarios: [],
       favoritos: [
         {
           NL: '700',
@@ -81,6 +82,7 @@ const dadosIniciais = {
       nome: 'Administrador',
       email: 'admin@buzzao.com',
       foto: 'https://picsum.photos/200/300',
+      comentarios: [],
       favoritos: [
         {
           NL: '700',
@@ -159,6 +161,7 @@ function loginUser(login, senha) {
       usuarioCorrente.senha = usuario.senha;
       usuarioCorrente.foto = usuario.foto;
       usuarioCorrente.favoritos = usuario.favoritos;
+      usuarioCorrente.comentarios = usuario.comentarios;
 
       // Salva os dados do usuário corrente no Session Storage, mas antes converte para string.
       sessionStorage.setItem(
@@ -190,6 +193,7 @@ function addUser(nome, login, senha, email) {
     email: email,
     foto: 'https://picsum.photos/200/300',
     favoritos: [],
+    comentarios: [],
   };
 
   // Inclui o novo usuario no banco de dados baseado em JSON.
@@ -317,11 +321,17 @@ if (typeof usuarioCorrente.login != 'undefined') {
     // Gerar o card.
     let feedbacks = '';
 
-    feedbacks = `<ul>
-              <li class="titulo-card">Feedbacks em aberto:</li>
-              <li>Horario errado...</li>
-              <li>Inclusao de linha...</li>
-            </ul>`;
+    // feedbacks = `<ul>
+    //           <li class="titulo-card">Feedbacks em aberto:</li>
+    //           <li>Horario errado...</li>
+    //           <li>Inclusao de linha...</li>
+    //         </ul>`;
+
+    // Gera lista de feedbacks.
+    feedbacks = `<h1 class="titulo-card">Feedbacks realizados:</h1>`;
+    for (let j = 0; j < usuarioCorrente.comentarios.length; j++) {
+      feedbacks += `<p>${usuarioCorrente.comentarios[j].coment}</p>`;
+    }
 
     document.querySelector('#feedback-usuario').innerHTML = feedbacks;
 

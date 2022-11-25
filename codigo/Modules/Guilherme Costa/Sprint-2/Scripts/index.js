@@ -98,7 +98,7 @@ map.on('load', () => {
       }
     }
     // Para apresentar o tempo de deslocamento do ônibus até a localização do usuário.
-    if (posicaoUsuario.length>0) {
+    if (posicaoUsuario.length > 0) {
       setInterval(function () {
         document.querySelector(
           '#tempo_espera'
@@ -1301,23 +1301,6 @@ export var database = [
       DG: '89',
       SV: '1',
       DT: '7558',
-    },
-  },
-  {
-    NL: '307',
-    Tarifa: 'R$ 4,50',
-    linha: 3503,
-    infoBH: {
-      EV: '105',
-      HR: '20221011085837',
-      LT: -19.913973,
-      LG: -43.938596,
-      NV: '40778',
-      VL: '9',
-      NL: '307',
-      DG: '200',
-      SV: '2',
-      DT: '11488',
     },
   },
   {

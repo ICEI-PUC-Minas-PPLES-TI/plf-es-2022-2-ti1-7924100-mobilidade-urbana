@@ -10,6 +10,13 @@
           "dialog"
         ]
       }
-    ]
+    ],
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id-active": "off"
+      }
+    ],
+    "axe/forms": "off"
   }
 }
