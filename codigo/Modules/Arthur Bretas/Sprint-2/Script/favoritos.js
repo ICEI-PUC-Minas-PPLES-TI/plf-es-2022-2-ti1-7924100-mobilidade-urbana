@@ -118,6 +118,5 @@ btn_favorito.addEventListener('click', () => {
     localStorage.setItem('db_usuarios', JSON.stringify(db_usuarios));
 
     ehFavorito.status = true;
-    console.log(ehFavorito);
   }
 });
