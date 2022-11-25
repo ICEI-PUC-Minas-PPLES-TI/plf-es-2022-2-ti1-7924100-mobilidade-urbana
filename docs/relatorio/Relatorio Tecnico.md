@@ -293,7 +293,7 @@
 
 > Nesta sessão, serão indicados os cenários de testes elaborados pelo grupo a fim de verificar a adequação das funcionalidades desenvolvidas frente aos requisitos supra apresentados. A elaboração destes cenários foi de suma importância para que falhas na experiência do usuário fossem verificadas.
 
-## Plano de Testes
+## Plano de Testes (PENDENTE ULTIMO ID)
 
 > | ID  | Cenário analisado                                                                                                                                                                                                                                                                                                                                                                                                    | Requisitos de referência |
 > | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
@@ -303,17 +303,6 @@
 > | 5   | `Ver tempo estimado do ônibus` <br><br>Passo a passo:<br>`1.` Abrir página inicial (home).<br>`2.` Clicar na barra de pesquisa de localização do usuário.<br>`3.` Clicar no botão de pesquisar.<br>`4.` Pesquisar linha de ônibus.<br>`5.` Clicar no botão de pesquisa.<br><br>`Resultado esperado:`<br>O tempo de deslocamento entre a posição do usuário e do ônibus deve ser apresentada no card.                 | RF-004                   |
 > | 6   | `Visualização do preço da tarifa do ônibus` <br><br>Passo a passo:<br>`1.` Abrir página inicial (home).<br>`2.` Pesquisar linha de ônibus.<br>`3.` Clicar no botão de pesquisa.<br><br>`Resultado esperado:`<br>O preço da linha digitada deve ser apresentado no card.                                                                                                                                              | RF-007 e RF-008          |
 > | 7   | `Inserir informações de taxa de ocupação do ônibus` <br><br>Passo a passo:<br>`1.`                                                                                                                                                                                                                                                                                                                                   | RF-009 e RF-010          |
-
-## Ferramentas de Testes (Opcional)
-
-...... COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
->
-> **Links Úteis**:
->
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 ## Registros de Testes
 
