@@ -306,7 +306,25 @@
 
 ## Registros de Testes
 
-> O plano de teste foi  realizado com XXX participantes, sendo que 5 deles já conheciam o objetivo do projeto (participaram da etapa de personas), e 2 que ainda não conheciam.
+> O plano de teste foi  realizado com 7 participantes, sendo que 5 deles já conheciam o objetivo do projeto (participaram da etapa de personas), e 2 que ainda não conheciam, conforme listados a seguir.
+>
+> Já conheciam a aplicação:
+> - Lowrany Ferreira;
+> - Beane do Carmo;
+> - Tamara Andreda;
+> - Pedro Guerra;
+> - Jose Carlos.
+> Não conheciam a aplicação:
+> - Matheus Lage;
+> - Rodrigo Lage.
+> 
+> Todos esses testes foram realizados considerando a metodologia caixa preta (quando o testador não conhece/interage com o código), os testes caixa branca (quando o testador conhece/interage com o código) foram realizados pelos próprios componentes da equipe. Ademais, os participantes foram instruídos a realizarem os 7 cenários descritos no Plano de Testes, sem que vissem o passo a passo indicado, de modo a avaliar a real clareza da aplicação para o usuário.
+>
+> Com base nos testes realizados (caixa preta), verificamos que, de modo geral, todos os usuários apresentaram facilidade para navegar pela aplicação e realizar todos os 7 cenários previstos no Plano de Testes. Segundo os intrevistados, a interface mais simplificada é um dos principais pontos positivos, e que facilita a navegabilidade da aplicação.
+>
+> Dentre os pontos de melhoria apresentados, foram citadas as seguites funcionalidades: (i) as linhas favoritadas na página de perfil, quando clicadas, poderiam levar à página inicial, já às adicionando na busca; (ii) alerta (notificação) em sistemas mobile, quando o ônibus estivesse se aproximando; e (iii) ver os pontos de ônibus no mapa. Não foram detectadas falhas significativas no funcionamento da aplicação durante o processo de testagem.
+
+
 
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
 > fracos identificados na solução. Comente como o grupo pretende atacar
