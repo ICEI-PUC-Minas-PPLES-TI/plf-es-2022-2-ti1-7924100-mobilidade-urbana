@@ -31,7 +31,7 @@ function pesquisaDados() {
 // Se a linha pesquisada já estiver 'favoritada' pelo usuário, o botão fica amarelo, se não, fica branco.
 function alterarCor(favorito) {
   if (favorito == true) {
-    document.getElementById('favorito').style.background = 'yellow';
+    document.getElementById('favorito').style.background = 'var(--cor_active)';
   } else {
     document.getElementById('favorito').style.background = 'white';
   }
@@ -56,7 +56,7 @@ var btnLinha = document
         if (linhasDeOnibus.value == usuarioCorrente.favoritos[i].linha) {
           ehFavorito.status = true;
           posicaoFavorito = i;
-          document.getElementById('favorito').style.background = 'yellow';
+          document.getElementById('favorito').style.background = 'var(--cor_active)';
         }
       }
     }
@@ -89,7 +89,7 @@ btn_favorito.addEventListener('click', () => {
     // Salva no localStorage.
     localStorage.setItem('db_usuarios', JSON.stringify(db_usuarios));
   } else {
-    document.getElementById('favorito').style.background = 'yellow';
+    document.getElementById('favorito').style.background = 'var(--cor_active)';
 
     ehFavorito.status = true;
 
