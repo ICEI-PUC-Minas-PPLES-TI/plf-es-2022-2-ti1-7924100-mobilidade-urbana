@@ -259,7 +259,7 @@
 
 # Projeto da Solução
 
-...... COLOQUE AQUI O SEU TEXTO ......
+> Este capítulo se dedica a apresentar as tecnologias utilizadas para o desenvolvimento deste projeto, e como elas interagem entre si.
 
 ## Tecnologias Utilizadas
 
