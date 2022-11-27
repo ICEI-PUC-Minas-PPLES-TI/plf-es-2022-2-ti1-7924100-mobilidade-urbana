@@ -286,16 +286,15 @@
 >
 > Assim que o usuário entra na página inicial da aplicação, ele pode informar o seu local atual pelo GPS e qual linha de ônibus que deseja verificar. Para que essas informações fossem passadas para um mapa, foi usada a API MapBox, em paralelo com o plug-in Directions, que permite a inserção de pontos iniciais e finais de destino.
 >
->![](images/Arqsolucao_1.png)
+> ![](images/Arqsolucao_1.png)
 >
 > Após inserção das informações indicadas, elas serão indicadas no mapa, pelos pontos A e B, respectivamente. Além disso, um card, com as informações de linha, tempo de deslocamento e preço da tarifa, será apresentado. Caso a linha indicada pelo usuário não esteja em nosso banco de dados, ele pode solicitar a sua inclusão, por meio da página de Feedback. O acesso a essa página pode ser feito no momento em que a linha de ônibus é informada, por meio de um modal, ou pelo próprio menu horizontal.
 >
->![](images/Arqsolucao_2.png)
+> ![](images/Arqsolucao_2.png)
 >
 > Caso o usuário esteja logado enquanto usa a aplicação, o que pode ser feito por meio da página de Login, indicada no menu horizontal, será apresentada a opção de favoritar uma determinada linha de ônibus, que será inserida no card no momento de pesquisa da linha. As linhas que forem favoritadas pelo usuário podem ser conferidas na página de perfil, bem como os comentários dos feedbacks realizados. Para que isso fosse possível, foram utilizados o localStorage e sessionStorage.
 >
->![](images/Arqsolucao_3.png)
->
+> ![](images/Arqsolucao_3.png)
 
 # Avaliação da Aplicação
 
