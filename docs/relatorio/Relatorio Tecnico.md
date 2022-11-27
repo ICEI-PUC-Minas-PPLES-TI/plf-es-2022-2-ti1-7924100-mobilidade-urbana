@@ -281,7 +281,7 @@
 ## Arquitetura da solução
 
 > A arquitetura da aplicação desenvolvida segue o modelo ilustrado na figura a seguir.
-> ![](imagens/Arquitetura_da_Solução.png)
+> ![](images/Arquitetura_da_solu%C3%A7%C3%A3o.png)
 >
 > Assim que o usuário entra na página inicial da aplicação, ele pode informar o seu local atual pelo GPS e qual linha de ônibus que deseja verificar. Para que essas informações fossem passadas para um mapa, foi usada a API MapBox, em paralelo com o plug-in Directions, que permite a inserção de pontos iniciais e finais de destino.
 >
