@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Buzzao</title>
+        <link rel="stylesheet" href="style.css">
+        <link id="icon" rel="icon" href="./img/icon.jpg">
+        </head>
+    <body>
+        <div class="top">
+        <img class="logo" src="./img/logo_buzzao.png" alt="">
+         <button class="volt">voltar</button>
+        </div>
+        <div class="box">
+            <form action="" id="form">
+                <fieldset>
+                    <legend><b>Lotação Do Ônibus</b></legend>
+                    <br><br><br>
+                    <div class="inputBox">
+                        <input id="linha" type="text" placeholder="Linha Do Ônibus" class="inputs required" autocomplete="off" oninput="linhaValidada()">
+                        <span class="span-required">Digite uma linha valida</span>
+                    <br><br><br>
+                        <input id="horario" placeholder="Horário Da Linha" type="text" name="Horario" id="Horario" class="inputs required" autocomplete="off" oninput="horaValidada()">
+                        <span class="span-required">Digite um horario valida , ex:21:00</span>
+                    <br><br><br>
+                        <input id="Itinerário" placeholder="Itinerário Do Ônibus" type="text" name="endereco" id="endereco" class="inputs" required autocomplete="off" >
+                    </div>
+                    <br>
+                    <div>
+                        <p>Lotação:</p>
+                        <input id="Lotação" type="radio" id="cheio" name="Lotação"  required value="cheio">
+                        <label for="cheio">Nenhum assento livre</label>
+                        <br><br>
+                        <input type="radio" id="normal" name="Lotação" value="normal">
+                        <label for="normal">Poucos assentos livres</label>
+                        <br><br>
+                        <input type="radio" id="vazio" name="Lotação" value="vazio">
+                        <label for="vazio">Vários assentos livres</label>
+                    </div>
+                    <br><br>
+                    <button onclick="" type="" name="submit" id="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+    <script>
+        const form = document.getElementById('form');
+        const campos = document.querySelectorAll('.required');
+        const spans = document.querySelectorAll ('.span-required');
+
+        form.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            window.alert('Formulario enviado com sucesso');
+        })
+
+        function setError(index){
+            campos[index].style.border = '2px solid #e63636';
+            spans[index].style.display = 'block';
+        }
+        
+        function removeError(index){
+            campos[index].style.border = '';
+            spans[index].style.display = 'none';
+        }
+
+        function linhaValidada(){
+            if((campos[0].value.length < 2) || (campos[0].value.length > 5))
+            {
+                setError(0);
+            }
+            else
+            {
+                removeError(0);
+            }
+        }
+        function horaValidada(){
+            if((campos[1].value.length < 5))
+            {
+                setError(1);
+            }
+            else
+            {
+                removeError(1);
+            }
+        }
+        
+
+    </script>
+</html>

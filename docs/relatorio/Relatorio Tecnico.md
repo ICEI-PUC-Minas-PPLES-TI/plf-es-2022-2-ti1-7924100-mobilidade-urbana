@@ -142,25 +142,25 @@
 
 ### Requisitos Funcionais
 
-> | ID     | Descrição do Requisito                                                           | Prioridade |
-> | ------ | -------------------------------------------------------------------------------- | ---------- |
-> | RF-001 | Permitir que o usuário salve o número da linha                                   | ALTA       |
-> | RF-002 | Apresentar as linhas de ônibus salvas pelo usuário                               | ALTA       |
-> | RF-003 | Mostrar a posição do ônibus no mapa                                              | ALTA       |
-> | RF-004 | Apresentar o tempo de espera estimado do ônibus                                  | MÉDIA      |
-> | RF-005 | Permitir que o usuário informe como localização o local atual dele, conforme GPS | MÉDIA      |
-> | RF-006 | Apresentar a localização do usuário no mapa                                      | MÉDIA      |
-> | RF-007 | Possuir um banco de dados com os preços das tarifas dos ônibus                   | MÉDIA      |
-> | RF-008 | Apresentar tarifa do ônibus selecionado pelo usuário                             | BAIXA      |
-> | RF-009 | Receber informação quanto à ocupação do ônibus                                   | BAIXA      |
-> | RF-010 | Mostrar taxa de ocupação do ônibus para o usuário                                | BAIXA      |
+> | ID     | Descrição do Requisito                                             | Prioridade |
+> | ------ | ------------------------------------------------------------------ | ---------- |
+> | RF-001 | Permitir que o usuário salve o número da linha                     | ALTA       |
+> | RF-002 | Apresentar as linhas de ônibus salvas pelo usuário                 | ALTA       |
+> | RF-003 | Mostrar a posição do ônibus no mapa                                | ALTA       |
+> | RF-004 | Apresentar o tempo de espera estimado do ônibus                    | MÉDIA      |
+> | RF-005 | Permitir que o usuário informe como localização o local atual dele | MÉDIA      |
+> | RF-006 | Apresentar a localização do usuário no mapa                        | MÉDIA      |
+> | RF-007 | Possuir um banco de dados com os preços das tarifas dos ônibus     | MÉDIA      |
+> | RF-008 | Apresentar tarifa do ônibus selecionado pelo usuário               | BAIXA      |
+> | RF-009 | Receber informação quanto à ocupação do ônibus                     | BAIXA      |
+> | RF-010 | Mostrar taxa de ocupação do ônibus para o usuário                  | BAIXA      |
 
 ### Requisitos não Funcionais
 
 > | ID      | Descrição do Requisito                                                                                | Prioridade |
 > | ------- | ----------------------------------------------------------------------------------------------------- | ---------- |
 > | RNF-001 | O usuário deve ser capaz de verificar a posição do ônibus, mesmo sem fornecer a sua localização atual | ALTA       |
-> | RNF-002 | A opção de favoritar linhas deve ser indicada no momento de pesquisa do usuário (caso esteja logado)  | ALTA       |
+> | RNF-002 | A opção de favoritar linhas deve ser indicada no momento de pesquisa do usuário                       | ALTA       |
 > | RNF-003 | O sistema precisa ser executado tanto em desktops quanto dispositivos móveis                          | MÉDIA      |
 > | RNF-004 | O tempo para apresentação da linha do ônibus não pode ser superior a 5 segundos                       | MÉDIA      |
 > | RNF-005 | A interface deve possuir uma opção de layout claro e escuro                                           | BAIXA      |
