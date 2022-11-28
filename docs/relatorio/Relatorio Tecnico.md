@@ -263,26 +263,20 @@
 
 ## Tecnologias Utilizadas
 
-...... COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
+> As tecnologias utilizadas para o desenvolvimento da aplicação foram:
 >
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
-
-## Arquitetura da solução
-
-> A arquitetura da aplicação desenvolvida segue o modelo ilustrado na figura a seguir.
->
-> ![](images/Arquitetura_da_solu%C3%A7%C3%A3o.png)
+> | Descrição     | Categoria                                    |
+> | ------------- | -------------------------------------------- |
+> | HTML          | Linguagem de marcação                        |
+> | CSS           | Linguagem de estilização                     |
+> | JavaScript    | Linguagem de programação                     |
+> | Bootstrap     | Framework                                    |
+> | Map Box       | API                                          |
+> | Directions    | MapBox plug-in                               |
+> | Git           | Software de versionamento                    |
+> | GitHub        | Controle compartilhado de versões do projeto |
+> | GitHub Pages  | Hospedagem da aplicação Web                  |
+> | Visual Studio | IDE                                          |
 >
 > Assim que o usuário entra na página inicial da aplicação, ele pode informar o seu local atual pelo GPS e qual linha de ônibus que deseja verificar. Para que essas informações fossem passadas para um mapa, foi usada a API MapBox, em paralelo com o plug-in Directions, que permite a inserção de pontos iniciais e finais de destino.
 >
@@ -295,6 +289,18 @@
 > Caso o usuário esteja logado enquanto usa a aplicação, o que pode ser feito por meio da página de Login, indicada no menu horizontal, será apresentada a opção de favoritar uma determinada linha de ônibus, que será inserida no card no momento de pesquisa da linha. As linhas que forem favoritadas pelo usuário podem ser conferidas na página de perfil, bem como os comentários dos feedbacks realizados. Para que isso fosse possível, foram utilizados o localStorage e sessionStorage.
 >
 > ![](images/Arqsolucao_3.png)
+
+## Arquitetura da solução
+
+> A arquitetura da aplicação desenvolvida segue o modelo ilustrado na figura a seguir.
+>
+> ![](images/Arquitetura_da_solu%C3%A7%C3%A3o.png)
+>
+> Conforme ilustrado pela figura acima, a aplicação web foi desenvolvida a partir das linguagens HTML, CSS e JavaScript. Para armazenamento e gerenciar as informações dos usuários cadastrados, foram utilizados o localStorage e sessionStorage.
+>
+> Para o posicionamento de uma determinada linha de ônibus e localização do usuário em um mapa, foi utilizada a API MapBox, em conjunto com seu plug-in Directions. Esse plug-in é responsável pelo reconhecimento de 2 localizações como pontos de início e término de um trajeto, além de calcular o tempo médio para seu deslocamento.
+>
+> A aplicação completa está sendo publicada por meio da funcionalidade de Pages do GitHub.
 
 # Avaliação da Aplicação
 
