@@ -15,7 +15,10 @@ document.body.onload = () => {
   } else {
     document
       .querySelector("#btn_login")
-      .setAttribute("href", "Modules/Guilherme Costa/Sprint-3/HTML/perfil.html");
+      .setAttribute(
+        "href",
+        "Modules/Guilherme Costa/Sprint-3/HTML/perfil.html"
+      );
     document.querySelector("#btn_login").innerHTML = usuario.login;
   }
 };
