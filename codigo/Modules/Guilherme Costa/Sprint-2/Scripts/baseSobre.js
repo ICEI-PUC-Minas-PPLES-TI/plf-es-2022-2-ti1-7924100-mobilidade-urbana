@@ -8,7 +8,7 @@ icon.onclick = () => {
 
   if (document.body.classList.contains('dark-mode'))
     icon.src = 'Assets/Images/moon-solid.svg';
-  else icon.src = 'Assets/Images/sun-solid.svg'; 
+  else icon.src = 'Assets/Images/sun-solid.svg';
 };
 
 // Janela de texto (modal) que aparece quando a linha inserida nao for valida.
