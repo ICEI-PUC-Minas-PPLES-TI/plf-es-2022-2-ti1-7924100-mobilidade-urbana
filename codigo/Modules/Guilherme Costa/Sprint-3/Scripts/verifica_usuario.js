@@ -9,7 +9,7 @@ document.body.onload = () => {
   if (typeof usuario.login === 'undefined') {
     document
       .querySelector('#btn_login')
-      .setAttribute('href', 'Modules/Guilherme Costa/Sprint-3/HTML/login.html');
+      .setAttribute('href', 'codigo/Modules/Guilherme Costa/Sprint-3/HTML/login.html');
     document.querySelector('#btn_login').innerHTML = 'Login';
     // Se tiver usuario logado.
   } else {
@@ -17,7 +17,7 @@ document.body.onload = () => {
       .querySelector('#btn_login')
       .setAttribute(
         'href',
-        'Modules/Guilherme Costa/Sprint-3/HTML/perfil.html'
+        'codigo/Modules/Guilherme Costa/Sprint-3/HTML/perfil.html'
       );
     document.querySelector('#btn_login').innerHTML = usuario.login;
     document.querySelector('#favorito').style.display = 'block';
