@@ -2,7 +2,7 @@
 # BUZZÃO
 A utilização do meio de transporte público como principal forma de deslocamento é a realidade de grande parte da população brasileira. Todavia, não são raras as vezes em que acontecem imprevistos que prejudicam o planejamento do usuáro, como atraso do ônibus e mudança de linha, por exemplo. 
 
-É com essa ideia em mente que estamos projetando o BUZZÃO, que busca fornecer melhores rotas, informações acerca das linhas de ônibus e melhor controle dos horários das linhas para o usuário.
+É com essa ideia em mente que estamos projetando o BUZZÃO, que busca fornecer, de maneira simples e clara, informação acerca da posição de um ônibus e o seu tempo de espera aproximado.
 
 ## Alunos integrantes da equipe
 
@@ -18,8 +18,8 @@ A utilização do meio de transporte público como principal forma de deslocamen
 * Roberto Felipe Dias Ferreira da Rocha
 * Felipe Augusto Lara Soares
 
-## Instruções de utilização (PENDENTE)
+## Instruções de utilização
 
 O acesso à aplicação pode ser realizado pelo seguinte [link](https://icei-puc-minas-pples-ti.github.io/plf-es-2022-2-ti1-7924100-mobilidade-urbana/).
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Após acessar a aplicação, o usuário pode criar uma conta, para desfrutar de funcionalidades adicionais da página, como opção de favoritar linhas e salvar os seus feedbacks.
