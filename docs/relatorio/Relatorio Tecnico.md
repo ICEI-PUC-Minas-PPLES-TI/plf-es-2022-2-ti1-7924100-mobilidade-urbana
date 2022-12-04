@@ -180,27 +180,39 @@
 >
 > Neste sentido, a seguir são detalhados o userflow do site e os wireframes projetados.
 
-## User Flow (PENDENTE AJUSTE)
+## User Flow
 
 > A seguir é detalhado o user flow elaborado para o projeto, considerando as premissas acima informadas.
 >
-> ![](images/userflow-rev.png)
+> ![](images/userflow.png)
 >
-> Para uma melhor visualização, este fluxo pode ser acessado por meio do seguinte [link](https://www.figma.com/file/wVv0JaD1McTy8OgkEo2D4Z/Buzz%C3%A3o---User-flow?node-id=0%3A1).
+> Para uma melhor visualização, este fluxo pode ser acessado por meio do seguinte [link](https://www.figma.com/proto/cZuvPXMTUubx1HkE5WLvpg/Buzz%C3%A3o---Wireframes?node-id=303%3A139&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=303%3A139).
 
 ## Wireframes (PENDENTE AJUSTE)
 
 > A seguir é detalhado os wireframes elaborados para o projeto.
 >
-> **Página inicial, detalhamento e sobre:**
+> **Página inicial:**
 >
-> ![](images/wireframe1-3rev.jpg)
+> ![](images/pagina-home.png)
 >
-> **Página de login, criação de usuário e perfil:**
+> **Página sonbre nós:**
 >
-> ![](images/wireframe4-6rev.jpg)
+> ![](images/pagina-sobre.png)
 >
-> Para uma melhor visualização, o protótipo interativo da página pode ser acessado pelo seguinte [link](https://www.figma.com/proto/cZuvPXMTUubx1HkE5WLvpg/Buzz%C3%A3o---Wireframes?node-id=17%3A63&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=17%3A63).
+> **Página de login:**
+>
+> ![](images/pagina-login.png)
+>
+> **Página de perfil:**
+>
+> ![](images/pagina-perfil.png)
+>
+> **Página de feedback:**
+>
+> ![](images/pagina-feedback.png)
+>
+> Para uma melhor visualização, o protótipo interativo da página pode ser acessado pelo seguinte [link](https://www.figma.com/proto/cZuvPXMTUubx1HkE5WLvpg/Buzz%C3%A3o---Wireframes?node-id=303%3A139&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=303%3A139).
 
 # Metodologia
 
@@ -239,7 +251,7 @@
 >
 > ![](images/kanban.png)
 
-## Ferramentas (TROCAR LINKS DE WIREFRAMES E USERFLOW)
+## Ferramentas
 
 > As ferramentas utilizadas no ao longo do processo foram:
 >
@@ -249,8 +261,8 @@
 > | Repositório online                     | GitHub             | [Repositorio Github](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti1-7924100-mobilidade-urbana)                                                                   |
 > | Controle de versões                    | Git                | [Git](https://git-scm.com/)                                                                                                                                                    |
 > | Acompanhamento das atividades - Kanban | GitHub Projects    | [Kanban](https://github.com/orgs/ICEI-PUC-Minas-PPLES-TI/projects/76/views/1)                                                                                                  |
-> | Protótipo Interativo - Wireframe       | Figma              | [Wireframe](https://www.figma.com/proto/cZuvPXMTUubx1HkE5WLvpg/Mobilidade-Urbana---Wireframes?node-id=17%3A1485&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=17%3A63) |
-> | Fluxo de páginas - Userflow            | Figma              | [Userflow](https://www.figma.com/file/wVv0JaD1McTy8OgkEo2D4Z/Buzz%C3%A3o---User-flow)                                                                                          |
+> | Protótipo Interativo - Wireframe       | Figma              | [Wireframe](https://www.figma.com/proto/cZuvPXMTUubx1HkE5WLvpg/Buzz%C3%A3o---Wireframes?node-id=303%3A139&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=303%3A139) |
+> | Fluxo de páginas - Userflow            | Figma              | [Userflow](https://www.figma.com/proto/cZuvPXMTUubx1HkE5WLvpg/Buzz%C3%A3o---Wireframes?node-id=303%3A139&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=303%3A139)                                                                                          |
 > | Editor de código                       | Visual Studio Code | [Visual Studio Code](https://code.visualstudio.com/)                                                                                                                           |
 > | Comunicação                            | Discord e Whatsapp | -                                                                                                                                                                              |
 >
