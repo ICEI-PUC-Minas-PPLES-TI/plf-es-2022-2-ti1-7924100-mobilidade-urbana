@@ -20,4 +20,6 @@ A utilização do meio de transporte público como principal forma de deslocamen
 
 ## Instruções de utilização (PENDENTE)
 
+O acesso à aplicação pode ser realizado pelo seguinte [link](https://icei-puc-minas-pples-ti.github.io/plf-es-2022-2-ti1-7924100-mobilidade-urbana/).
+
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
