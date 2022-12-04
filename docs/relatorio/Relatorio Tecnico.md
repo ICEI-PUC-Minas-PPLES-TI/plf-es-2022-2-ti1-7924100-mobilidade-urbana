@@ -196,7 +196,7 @@
 >
 > ![](images/pagina-home.png)
 >
-> **Página sonbre nós:**
+> **Página sobre nós:**
 >
 > ![](images/pagina-sobre.png)
 >
@@ -307,7 +307,7 @@
 >
 > ![](images/Arquitetura_da_solu%C3%A7%C3%A3o.png)
 >
-> Conforme ilustrado pela figura acima, a aplicação web foi desenvolvida a partir das linguagens HTML, CSS e JavaScript. Para armazenamento e gerenciar as informações dos usuários cadastrados, foram utilizados o localStorage e sessionStorage.
+> Conforme ilustrado pela figura acima, a aplicação web foi desenvolvida a partir das linguagens HTML, CSS e JavaScript. Para armazenamento e gerenciamento das informações dos usuários cadastrados, foram utilizados o localStorage e sessionStorage.
 >
 > Para o posicionamento de uma determinada linha de ônibus e localização do usuário em um mapa, foi utilizada a API MapBox, em conjunto com seu plug-in Directions. Esse plug-in é responsável pelo reconhecimento de 2 localizações como pontos de início e término de um trajeto, além de calcular o tempo médio para seu deslocamento.
 >
@@ -326,7 +326,7 @@
 > | 5   | `Ver tempo estimado do ônibus` <br><br>Passo a passo:<br>`1.` Abrir página inicial (home).<br>`2.` Clicar na barra de pesquisa de localização do usuário.<br>`3.` Clicar no botão de pesquisar.<br>`4.` Pesquisar linha de ônibus.<br>`5.` Clicar no botão de pesquisa.<br><br>`Resultado esperado:`<br>O tempo de deslocamento entre a posição do usuário e do ônibus deve ser apresentada no card.                 | RF-004                   |
 > | 6   | `Visualização do preço da tarifa do ônibus` <br><br>Passo a passo:<br>`1.` Abrir página inicial (home).<br>`2.` Pesquisar linha de ônibus.<br>`3.` Clicar no botão de pesquisa.<br><br>`Resultado esperado:`<br>O preço da linha digitada deve ser apresentado no card.                                                                                                                                              | RF-007 e RF-008          |
 >
-> Com relação aos requisitos funcionais RF-009 e RF-010, o componente da equipe responsável pelo desenvolvimento dessas funcionalidades não as entregou como previsto. De modo que eles foram desconsiderados do plano de teste, conforme orientação dos professores.
+> Com relação aos requisitos funcionais RF-009 e RF-010, o componente da equipe responsável pelo seu desenvolvimento não as entregou como previsto. De modo que eles foram desconsiderados do plano de teste, conforme orientação dos professores.
 
 ## Registros de Testes
 
