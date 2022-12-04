@@ -188,7 +188,7 @@
 >
 > Para uma melhor visualização, este fluxo pode ser acessado por meio do seguinte [link](https://www.figma.com/proto/cZuvPXMTUubx1HkE5WLvpg/Buzz%C3%A3o---Wireframes?node-id=303%3A139&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=303%3A139).
 
-## Wireframes (PENDENTE AJUSTE)
+## Wireframes
 
 > A seguir é detalhado os wireframes elaborados para o projeto.
 >
