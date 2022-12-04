@@ -1,5 +1,7 @@
 # Código do Projeto
 
-Mantenha neste diretório todo o código fonte do projeto. 
+O código foi subdividido entre duas grandes pastas: Assets e Modules. 
 
-Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diretórios criada para organização do código.
+Em Assets, estão os arquivos padrões para todos os demais código HTML, CSS ou JavaScript, que são as imagens.
+
+Em Modules, estão segregados os artefatos entregues por cada integrante do grupo ao longo do desenvolvimento do projeto.
