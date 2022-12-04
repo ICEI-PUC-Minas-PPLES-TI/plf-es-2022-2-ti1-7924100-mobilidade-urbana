@@ -317,8 +317,7 @@
 
 > Nesta sessão, serão indicados os cenários de testes elaborados pelo grupo a fim de verificar a adequação das funcionalidades desenvolvidas frente aos requisitos supra apresentados. A elaboração destes cenários foi de suma importância para que falhas na experiência do usuário fossem verificadas.
 
-## Plano de Testes (PENDENTE ULTIMO ID)
-
+## Plano de Testes
 > | ID  | Cenário analisado                                                                                                                                                                                                                                                                                                                                                                                                    | Requisitos de referência |
 > | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
 > | 1   | `Favoritar linha de ônibus e visualizá-la na página de perfil` <br><br>Passo a passo:<br>`1.` Fazer login.<br>`2.` Abrir página inicial (home).<br>`3.` Pesquisar linha de ônibus e clicar no botão de pesquisa.<br>`4.` Clicar no botão "favoritar".<br>`5.` Abrir página de perfil.<br><br>`Resultado esperado:`<br>A linha favoritada pelo usuário deve ser mostrada no card de favoritos, em sua área de perfil. | RF-001 e RF-002          |
@@ -326,7 +325,8 @@
 > | 3   | `Inserir localização do usuário pelo GPS e visualizá-la no mapa` <br><br>Passo a passo:<br>`1.` Abrir página inicial (home).<br>`2.` Clicar na barra de pesquisa de localização do usuário.<br>`3.` Clicar no botão de pesquisar.<br><br>`Resultado esperado:`<br>A localização do usuário informada deve ser mostrada no mapa.                                                                                      | RF-005 e RF-006          |
 > | 5   | `Ver tempo estimado do ônibus` <br><br>Passo a passo:<br>`1.` Abrir página inicial (home).<br>`2.` Clicar na barra de pesquisa de localização do usuário.<br>`3.` Clicar no botão de pesquisar.<br>`4.` Pesquisar linha de ônibus.<br>`5.` Clicar no botão de pesquisa.<br><br>`Resultado esperado:`<br>O tempo de deslocamento entre a posição do usuário e do ônibus deve ser apresentada no card.                 | RF-004                   |
 > | 6   | `Visualização do preço da tarifa do ônibus` <br><br>Passo a passo:<br>`1.` Abrir página inicial (home).<br>`2.` Pesquisar linha de ônibus.<br>`3.` Clicar no botão de pesquisa.<br><br>`Resultado esperado:`<br>O preço da linha digitada deve ser apresentado no card.                                                                                                                                              | RF-007 e RF-008          |
-> | 7   | `Inserir informações de taxa de ocupação do ônibus` <br><br>Passo a passo:<br>`1.`                                                                                                                                                                                                                                                                                                                                   | RF-009 e RF-010          |
+>
+> Com relação aos requisitos funcionais RF-009 e RF-010, o componente da equipe responsável pelo desenvolvimento dessas funcionalidades não as entregou como previsto. De modo que eles foram desconsiderados do plano de teste, conforme orientação dos professores.
 
 ## Registros de Testes
 
