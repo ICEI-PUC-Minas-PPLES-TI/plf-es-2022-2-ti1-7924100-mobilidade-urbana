@@ -4,3 +4,8 @@
     width: 80%;
     color: var(--texto_rodape);
 }
+
+#imagem_onibus {
+    width: 60%;
+    border-radius: 10px;
+}
