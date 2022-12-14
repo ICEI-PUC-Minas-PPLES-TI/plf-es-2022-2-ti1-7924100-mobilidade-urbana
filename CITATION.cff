@@ -1,33 +1,32 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: 08 - Problemas de mobilidade urbana (Buzzão)
 authors:
   - family-names: Capanema Bretas
-    given-names: Arthur 
-  - family-names: Lage da Costa 
+    given-names: Arthur
+  - family-names: Lage da Costa
     given-names: Guilherme
-  - family-names: Ramalho Teodoro de Oliveira Júnior
-    given-names: Renato 
   - family-names: Guanabarino Freire de Castro
-    given-names: Mateus 
+    given-names: Mateus
   - family-names: Magalhães Freire de Castro
-    given-names: Miguel 
+    given-names: Miguel
+  - family-names: Ramalho Teodoro de Oliveira Júnior
+    given-names: Renato
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Lara Soares
+    given-names: Felipe Augusto
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Dias Ferreira da Rocha
+    given-names: Roberto Felipe
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: Vieira Carneiro
-    given-names: Rommel 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: Felipe Dias Ferreira da Rocha
-    given-names: Roberto 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: Augusto Lara Soares
-    given-names: Felipe 
+    given-names: Rommel
 keywords:
-  - Buzzão
-  - Localização de Ônibus
+  - mobilidade urbana
 repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti1-7924100-mobilidade-urbana
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2022-07-14
+date-released: 2022-12-14 
